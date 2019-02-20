@@ -6,19 +6,31 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
+import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AboutComponent } from './about/about.component';
+import { HttpClientModule } from "@angular/common/http";
+import { Shared } from './providers/shared';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PortfolioItemComponent
+    PortfolioItemComponent,
+    ContactComponent,
+    PortfolioComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [Shared, 
+    // { provide: ErrorHandler, useClass: RavenErrorHandler } 
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
