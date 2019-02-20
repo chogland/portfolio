@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { item } from '../item';
+import { ITEMS } from '../mock-portfolioitems';
 import {Router, ActivatedRoute, Params} from "@angular/router";
 
 
@@ -10,15 +10,14 @@ import {Router, ActivatedRoute, Params} from "@angular/router";
 })
 export class PortfolioItemDetailsComponent implements OnInit {
   itemDataToShow: any;
-
   constructor(
     private activatedRoute: ActivatedRoute
   ) { }
 
   showDataOfMatchingID(ID) {
-    for (let i = item.length - 1; i >= 0; i--) {
-      if (item[i].id === ID) {
-        this.itemDataToShow = item[i];
+    for (let i = ITEMS.length - 1; i >= 0; i--) {
+      if (ITEMS[i].id === ID) {
+        this.itemDataToShow = ITEMS[i];
         break;
       }
     }
@@ -27,12 +26,9 @@ export class PortfolioItemDetailsComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe((params: Params) => {
       if (!params["id"]) {
-        return; // Wrong parameter, show some error maybe.
+        return; // TODO: show some error maybe.
       }else {
-        // Use your parameter here
-        console.log("ID: ", params["id"]);
         this.showDataOfMatchingID(params["id"]);
-        
       }
     });
   }
