@@ -6,7 +6,8 @@ import { ItemService } from '../item.service';
 @Component({
   selector: 'app-portfolio-item',
   templateUrl: './portfolio-item.component.html',
-  styleUrls: ['./portfolio-item.component.scss']
+  styleUrls: ['./portfolio-item.component.scss'],
+  providers: [ ItemService ]
 })
 export class PortfolioItemComponent implements OnInit {
   

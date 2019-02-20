@@ -12,6 +12,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { Shared } from './providers/shared';
 import { PortfolioItemDetailsComponent } from './portfolio-item-details/portfolio-item-details.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

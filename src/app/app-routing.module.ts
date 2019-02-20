@@ -19,12 +19,12 @@ const routes: Routes = [
     component: AboutComponent
   },
   { 
-    path: 'portfolio/:id', 
+    path: 'portfolio/details/:id', 
     component: PortfolioItemDetailsComponent 
   }
 ];
 
-@NgModule({
+@NgModule({     
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
