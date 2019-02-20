@@ -7,7 +7,9 @@ import { item } from '../item';
   styleUrls: ['./portfolio-item-details.component.scss']
 })
 export class PortfolioItemDetailsComponent implements OnInit {
-@Input() item: item;
+  
+  @Input() item: item;
+  
   constructor() { }
 
   ngOnInit() {
