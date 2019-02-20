@@ -1,4 +1,72 @@
 .header_img_charlie {
-    width:130px;
-    border-radius:50%;
+  width: 130px;
+  border-radius: 50%;
+}
+.live-status {
+  background-color: black;
+  &.offline {
+    color: #fff;
+  }
+  color: red;
+  font-size: 8px;
+}
+
+.nav-masthead {
+  .active {
+    color: #fff;
+    border-bottom-color: #fff;
+  }
+
+  .nav-link {
+    padding: 0.15rem 0.2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-bottom: 0.25rem solid transparent;
+
+    svg {
+      height: 30px;
+    }
+    &:hover,
+    &:focus {
+      &.web_hover {
+        &:after {
+          content: " Web";
+          display: block;
+    position: absolute;
+        }
+      }
+      &.design_hover {
+        &:after {
+          content: " Design";
+          display: block;
+    position: absolute;
+        }
+      }
+      &.music_hover {
+        &:after {
+          content: " Music";display: block;
+          position: absolute;
+        }
+      }
+      &.git_hover {
+        &:after {
+          content: " Git Hub";display: block;
+          position: absolute;
+        }
+      }
+      &.youtube_hover {
+        &:after {
+          content: " YouTube";display: block;
+          position: absolute;
+        }
+      }
+      &.mail_hover {
+        &:after {
+          content: " E-Mail";display: block;
+          position: absolute;
+        }
+      }
+    }
+  }
 }

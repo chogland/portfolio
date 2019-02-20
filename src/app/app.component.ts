@@ -21,14 +21,14 @@ export class AppComponent implements OnInit {
     ]);
 }
 ngOnInit(){
-    if(!this.portfolio.texts){
-        this.portfolio.getTexts().subscribe(
-            data => {
-                console.log(data);
-                this.portfolio.texts = data;
-            },
-            err => console.error(err)
-        );
-    }
+    // if(!this.portfolio.texts){
+    //     this.portfolio.getTexts().subscribe(
+    //         data => {
+    //             console.log(data);
+    //             this.portfolio.texts = data;
+    //         },
+    //         err => console.error(err)
+    //     );
+    // }
 }
 }

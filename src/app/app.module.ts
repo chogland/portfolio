@@ -6,12 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
-import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from "@angular/common/http";
 import { Shared } from './providers/shared';
-
+import { PortfolioItemDetailsComponent } from './portfolio-item-details/portfolio-item-details.component';
 
 @NgModule({
   declarations: [
@@ -19,14 +18,15 @@ import { Shared } from './providers/shared';
     HeaderComponent,
     FooterComponent,
     PortfolioItemComponent,
-    ContactComponent,
     PortfolioComponent,
-    AboutComponent
+    AboutComponent,
+    PortfolioItemDetailsComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [Shared, 
     // { provide: ErrorHandler, useClass: RavenErrorHandler } 
