@@ -5,11 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { PortfolioItemDetailsComponent } from './portfolio-item-details/portfolio-item-details.component';
 
 const routes: Routes = [
-  { 
-    path: '**', 
-    redirectTo: '/portfolio', 
-    pathMatch: 'full' 
-  },
+  
   {
     path: 'portfolio',
     component: PortfolioComponent
@@ -19,8 +15,13 @@ const routes: Routes = [
     component: AboutComponent
   },
   { 
-    path: 'portfolio/details/:id', 
+    path: 'portfolio/:id', 
     component: PortfolioItemDetailsComponent 
+  },
+  { 
+    path: '**', 
+    redirectTo: '/portfolio', 
+    pathMatch: 'full' 
   }
 ];
 

@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from "@angular/common/http";
 import { Shared } from './providers/shared';
 import { PortfolioItemDetailsComponent } from './portfolio-item-details/portfolio-item-details.component';
+import { item } from './item';
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import { PortfolioItemDetailsComponent } from './portfolio-item-details/portfoli
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [Shared, 
+  providers: [
+    Shared, 
+    item
     // { provide: ErrorHandler, useClass: RavenErrorHandler } 
   ],
   bootstrap: [AppComponent]
