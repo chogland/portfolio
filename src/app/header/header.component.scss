@@ -26,10 +26,14 @@
 
     svg {
       height: 30px;
+     
     }
     &:hover,
     &:focus {
       &.web_hover {
+        svg {
+          color:blue;
+        }
         &:after {
           content: " Web";
           display: block;
@@ -37,6 +41,9 @@
         }
       }
       &.design_hover {
+        svg {
+          color:green;
+        }
         &:after {
           content: " Design";
           display: block;
@@ -44,24 +51,36 @@
         }
       }
       &.music_hover {
+        svg {
+          color:yellow;
+        }
         &:after {
           content: " Music";display: block;
           position: absolute;
         }
       }
       &.git_hover {
+        svg {
+          color:orange;
+        }
         &:after {
           content: " Git Hub";display: block;
           position: absolute;
         }
       }
       &.youtube_hover {
+        svg {
+          color:red;
+        }
         &:after {
           content: " YouTube";display: block;
           position: absolute;
         }
       }
       &.mail_hover {
+        svg {
+          color:pink;
+        }
         &:after {
           content: " E-Mail";display: block;
           position: absolute;
