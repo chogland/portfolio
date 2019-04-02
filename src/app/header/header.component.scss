@@ -1,6 +1,19 @@
-.header_img_charlie {
-  width: 130px;
-  border-radius: 50%;
+@import "../../app.scss";
+
+#navDrawer {
+  width:100%;
+  z-index:100;
+  min-height:100vh;
+  overflow-y:scroll;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.img-charlie {
+  width:100%;
+
 }
 .live-status {
   background-color: black;
@@ -23,7 +36,15 @@
     color: rgba(255, 255, 255, 0.5);
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
+    font-size:144px;
+ 
+    @include media-breakpoint-down(md) { 
+      font-size: 58px; 
+    }
+   
 
+
+    cursor:pointer;
     svg {
       height: 30px;
      

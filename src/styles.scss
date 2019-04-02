@@ -1,1 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+$font-primary:    'PT Sans', sans-serif;
+$font-narrow: 'PT Sans Narrow', sans-serif;
+$colors: (
+    white: #EBFAF2,
+    grey: #A6A69F,
+    orange: #FF6945,
+    blue: #1A82A1,
+    dark-blue: #163C54,
+    black: #343434
+);
+@mixin color-modifiers($attribute: 'color', $prefix: '-') {
+    @each $name, $hex in $colors {
+      &#{$prefix}#{$name} {
+        #{$attribute}: $hex;
+      }
+    }
+  }
+
+  .text {
+    @include color-modifiers($prefix: '--');
+  }
+
+  @mixin bg-color-modifiers($attribute: 'background-color', $prefix: '--') {
+    @each $name, $hex in $colors {
+      &#{$prefix}#{$name} {
+        #{$attribute}: $hex;
+      }
+    }
+  }
+  .bg {
+      @include bg-color-modifiers;
+  }
+
+
+
+body {
+  font: 100% $font-primary;
+  font-size: 1em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: $font-narrow;
+}
+.header_lg {
+    font-size: 101px;
+    line-height: 95px;
+    font-family: $font-narrow;
+    @include media-breakpoint-down(md) { font-size: 70px; line-height: 55px; }
+}
+.header_md {
+    font-size: 48px;
+    line-height: 40px;
+    font-family: $font-narrow;
+    @include media-breakpoint-down(md) { font-size: 28px;line-height: 28px;  }
+}
+
+.header_sm {
+    font-size:24px;
+    font-family: $font-narrow;
+    @include media-breakpoint-down(md) { font-size: 16px;}
+}
+// header {
+//     line-height: 4.2rem;
+// }
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1400px;
+    }
+}
+
+
+
+#menu-select {
+    font-size:48px;
+    cursor:pointer;
+}
+

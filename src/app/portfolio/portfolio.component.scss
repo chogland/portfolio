@@ -1,0 +1,15 @@
+@import "../../app.scss";
+
+.section-header {
+    background:url(../../assets/images/myworks.png);
+    background-size:cover;
+    background-position:center center;
+}
+.section-header-text {
+    font-family: $font-narrow;
+    font-size:144px;
+    text-shadow: 1px 1px 1px #163C54;
+    line-height: 70%;
+    padding-top: 100px;
+    @include media-breakpoint-down(md) { font-size: 80px; }
+}
