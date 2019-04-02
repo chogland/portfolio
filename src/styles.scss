@@ -61,18 +61,6 @@ h1,h2,h3,h4,h5,h6 {
     font-family: $font-narrow;
     @include media-breakpoint-down(md) { font-size: 16px;}
 }
-// header {
-//     line-height: 4.2rem;
-// }
-
-@media (min-width: 1200px) {
-    .container{
-        width: 1400px;
-    }
-}
-
-
-
 #menu-select {
     font-size:48px;
     cursor:pointer;
