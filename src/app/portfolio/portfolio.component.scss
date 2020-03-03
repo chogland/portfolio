@@ -1,13 +1,21 @@
 @import "../../app.scss";
+@import "../../variables.scss";
 
 .section-header {
-    background:url(../../assets/images/myworks.png);
+    &.showDeveloper {
+        background-image:url(../../assets/images/myworks.png);
+    }
+    &.showDrummer {
+        background-image:url(../../assets/images/myprojects.png);
+    }
+    
     background-size:cover;
     background-position:center center;
+    overflow:hidden;
 }
 .section-header-text {
     font-family: $font-narrow;
-    font-size:144px;
+    font-size: 74px;
     text-shadow: 1px 1px 1px #163C54;
     line-height: 70%;
     padding-top: 100px;

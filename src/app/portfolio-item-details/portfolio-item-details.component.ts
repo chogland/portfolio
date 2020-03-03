@@ -16,7 +16,8 @@ export class PortfolioItemDetailsComponent implements OnInit {
 
   showDataOfMatchingID(ID) {
     for (let i = ITEMS.length - 1; i >= 0; i--) {
-      if (ITEMS[i].id === ID) {
+      // if (ITEMS[i].id === ID) { TODO: Why doesn't this work!? ITEMS[i].id is int, is ID not int?
+        if (ITEMS[i].id == ID) {
         this.itemDataToShow = ITEMS[i];
         break;
       }
@@ -26,6 +27,7 @@ export class PortfolioItemDetailsComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe((params: Params) => {
       if (!params["id"]) {
+
         return; // TODO: show some error maybe.
       }else {
         this.showDataOfMatchingID(params["id"]);

@@ -1,0 +1,8 @@
+{
+    "title": "Title of the Style Guide",
+    "source": "styles.scss",
+    "destination": "styleguide/",
+    "css": [
+      "../main.css"
+    ]
+  }

@@ -28,7 +28,7 @@ import { item } from './item';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [
     Shared, 

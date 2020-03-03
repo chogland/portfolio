@@ -1,15 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-$font-primary:    'PT Sans', sans-serif;
-$font-narrow: 'PT Sans Narrow', sans-serif;
-$colors: (
-    white: #EBFAF2,
-    grey: #A6A69F,
-    orange: #FF6945,
-    blue: #1A82A1,
-    dark-blue: #163C54,
-    black: #343434
-);
+@import "../src/variables.scss";
+
+
 @mixin color-modifiers($attribute: 'color', $prefix: '-') {
     @each $name, $hex in $colors {
       &#{$prefix}#{$name} {
@@ -40,6 +33,52 @@ body {
   font-size: 1em;
 }
 
+a {
+  color:$color-white;
+  &:hover {
+    color:$color-orange;
+    text-decoration:none;
+  }
+}
+
+body.drummer-mode {
+  .showDeveloper {
+    display:none !important;
+    opacity:0;
+    transition: opacity 1s ease;
+  }
+  .showDrummer {
+    display:block !important;
+    opacity:1;
+    transition: opacity 1s ease;
+  }
+  .Web {
+    display:none;
+  }
+  .Music {
+    display:flex;
+  }
+}
+
+body.developer-mode {
+  .Web {
+    display:flex;
+  }
+  .Music {
+    display:none;
+  }
+  .showDeveloper {
+    display:block !important;
+    opacity:1;
+    transition: opacity 1s ease;
+  }
+  .showDrummer {
+   display:none !important; 
+   opacity:0;
+   transition: opacity 1s ease;
+  }
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: $font-narrow;
 }
@@ -65,4 +104,7 @@ h1,h2,h3,h4,h5,h6 {
     font-size:48px;
     cursor:pointer;
 }
+
+
+
 

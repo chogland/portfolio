@@ -1,3 +1,5 @@
+
+ 
 <div class="bg--dark-blue position-fixed collapse" id="navDrawer">
   <div class="container nav-masthead">
     <nav class="row nav text-center">
@@ -5,7 +7,7 @@
         aria-expanded="false" aria-label="Toggle navigation">
         CLOSE
       </div>
-      <div class="col-12 nav-link">
+      <div class="col-12 nav-link" routerLink="/about" routerLinkActive="active" data-toggle="collapse" data-target="#navDrawer" >
         ABOUT ME
       </div>
       <div class="col-12 nav-link">
@@ -45,27 +47,47 @@
   </div>
 </div>
 
-<header class="p-2 pt-4 p-md-5 bg--dark-blue ">
+<header class="p-2 pr-md-5 pl-md-5 pb-md-5 bg--dark-blue" >
   <div class="container">
     <div class="row">
+        <div class="col-12 text-right d-flex justify-content-center align-items-center toggleWrapper" > 
+            <p class="uppertextleft"> Web </p>
+                <input type="checkbox" class="switcher" id="checkbox" style="display:none;" />
+        <label for="checkbox" class="toggle1">
+          <span>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-music"></i>
+          </span>
+        </label> 
+        <p class="uppertextright"> Music </p>
+    </div>
+
       <div class="col-md-10">
         <div class="header_md text--blue">
           HELLO. MY NAME IS
         </div>
         <div class="header_lg p-0 m-0 text--white">
-          CHARLIE HOGLAND
+          <a href="portfolio">CHARLIE HOGLAND</a>
         </div>
-        <div class="header_md text--orange">
-          USER EXPERIENCE
+        
+        <div class="header_md text--orange showDeveloper">
+          <span class="text--blue">I'M A</span> USER EXPERIENCE
         </div>
-        <div class="header_sm text--orange">
+        <div class="header_md text--orange showDrummer">
+            <span class="text--blue">I'M A</span> DRUMMER
+          </div>
+        <div class="header_sm text--orange showDeveloper">
           designer | stategist | developer
         </div>
+        <div class="header_sm text--orange showDrummer">
+          live | recording 
+        </div>
+        
       </div>
       <div class="col-md-2">
-        <img src="../../assets/images/Charlie-Header.png" class="img-charlie d-none d-md-block" alt="Charlie Hogland" />
+        <!-- <img src="../../assets/images/Charlie-Header.png" class="img-charlie d-none d-md-block showDeveloper" alt="Charlie Hogland" />
+        <img src="../../assets/images/Charlie-Header_music.png" class="img-charlie d-none d-md-block showMusic" alt="Charlie Hogland" /> -->
         <div class="text-right pt-2">
-
           <i id="menu-select" class="pr-0 mr-0 navbar-toggler collapsed fas fa-bars text--white" data-toggle="collapse"
             data-target="#navDrawer" aria-controls="navDrawer" aria-expanded="false" aria-label="Toggle navigation"></i>
         </div>

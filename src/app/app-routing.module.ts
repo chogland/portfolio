@@ -16,7 +16,8 @@ const routes: Routes = [
   },
   { 
     path: 'portfolio/:id', 
-    component: PortfolioItemDetailsComponent 
+    component: PortfolioItemDetailsComponent,
+    data: {show: false}
   },
   { 
     path: '**', 

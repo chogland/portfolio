@@ -1,7 +1,7 @@
 import { Component, ChangeDetectionStrategy, ChangeDetectorRef, OnInit} from '@angular/core';
 import { Meta } from '@angular/platform-browser';
 import { Shared } from './providers/shared';
-
+declare var $: any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -30,5 +30,14 @@ ngOnInit(){
     //         err => console.error(err)
     //     );
     // }
+    var body = $("body")
+    $("input[type='checkbox'].switcher").change(function(){
+          if($(this).is(":checked")){
+            body.toggleClass("drummer-mode developer-mode"); 
+          }else{
+            body.toggleClass("developer-mode drummer-mode");  
+          }
+    });
 }
 }
+
