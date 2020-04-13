@@ -30,14 +30,15 @@ ngOnInit(){
     //         err => console.error(err)
     //     );
     // }
-    var body = $("body")
-    $("input[type='checkbox'].switcher").change(function(){
-          if($(this).is(":checked")){
-            body.toggleClass("drummer-mode developer-mode"); 
-          }else{
-            body.toggleClass("developer-mode drummer-mode");  
-          }
-    });
+    // var body = $("body")
+    // $("input[type='checkbox'].switcher").change(function(){
+    //       if($(this).is(":checked")){
+    //         body.toggleClass("drummer-mode developer-mode"); 
+    //       }else{
+    //         body.toggleClass("developer-mode drummer-mode");  
+    //       }
+    // });
+    
 }
 }
 

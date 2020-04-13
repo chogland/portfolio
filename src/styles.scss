@@ -34,9 +34,17 @@ body {
 }
 
 a {
+  box-shadow: none;
   color:$color-white;
   &:hover {
+    font-weight:bold;
     color:$color-orange;
+    &.a-linkedinblue {
+      color:#0072b1;
+    }
+    &.a-adobered {
+      color:#ff0000;
+    }
     text-decoration:none;
   }
 }

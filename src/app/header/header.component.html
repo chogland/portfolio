@@ -1,20 +1,20 @@
 
  
-<div class="bg--dark-blue position-fixed collapse" id="navDrawer">
+<div class="bg--dark-blue position-absolute" [collapse]="isCollapsed" [isAnimated]="true" id="navDrawer">
   <div class="container nav-masthead">
     <nav class="row nav text-center">
-      <div class="col-12 nav-link" id="nav-close" data-toggle="collapse" data-target="#navDrawer" aria-controls="navDrawer"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <div class="col-12 nav-link" id="nav-close"  aria-controls="navDrawer" (click)="isCollapsed = !isCollapsed"
+      [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation">
         CLOSE
       </div>
       <div class="col-12 nav-link" routerLink="/about" routerLinkActive="active" data-toggle="collapse" data-target="#navDrawer" >
         ABOUT ME
       </div>
       <div class="col-12 nav-link">
-        MY WORKS
+        PORTFOLIO
       </div>
       <div class="col-12 nav-link">
-        CONTACT
+        CONTACT ME
       </div>
 
 
@@ -47,12 +47,12 @@
   </div>
 </div>
 
-<header class="p-2 pr-md-5 pl-md-5 pb-md-5 bg--dark-blue" >
-  <div class="container">
+<header class="p-2 pr-md-5 pl-md-5 bg--dark-blue" [ngClass]="(header=='small')?'small':'large'" >
+  <div class="container py-2 py-md-5">
     <div class="row">
-        <div class="col-12 text-right d-flex justify-content-center align-items-center toggleWrapper" > 
+        <!-- <div [ngClass]="(header=='small')?'col':'col-12'" class=" text-right d-flex justify-content-center align-items-center toggleWrapper" > 
             <p class="uppertextleft"> Web </p>
-                <input type="checkbox" class="switcher" id="checkbox" style="display:none;" />
+                <input type="checkbox" class="switcher d-none" id="checkbox" />
         <label for="checkbox" class="toggle1">
           <span>
             <i class="fas fa-pen"></i>
@@ -60,9 +60,9 @@
           </span>
         </label> 
         <p class="uppertextright"> Music </p>
-    </div>
+    </div> -->
 
-      <div class="col-md-10">
+      <div class="col-10 hide-small">
         <div class="header_md text--blue">
           HELLO. MY NAME IS
         </div>
@@ -84,21 +84,27 @@
         </div>
         
       </div>
-      <div class="col-md-2">
+      <div class="col-2">
         <!-- <img src="../../assets/images/Charlie-Header.png" class="img-charlie d-none d-md-block showDeveloper" alt="Charlie Hogland" />
         <img src="../../assets/images/Charlie-Header_music.png" class="img-charlie d-none d-md-block showMusic" alt="Charlie Hogland" /> -->
-        <div class="text-right pt-2">
-          <i id="menu-select" class="pr-0 mr-0 navbar-toggler collapsed fas fa-bars text--white" data-toggle="collapse"
-            data-target="#navDrawer" aria-controls="navDrawer" aria-expanded="false" aria-label="Toggle navigation"></i>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="row">
-            <div class="col">
-                <a class="text-muted" aria-disabled="true">Live Coding/Designing
-                    <span class="live-status offline p-1 ml-1">OFFLINE</span></a>
+       
+
+        <div class="row justify-content-end h-100 align-content-between">
+          <div class="col-12">
+            <div class="text-right pt-2">
+              <i id="menu-select" class="pr-0 mr-0 navbar-toggler fas fa-bars text--white" (click)="isCollapsed = !isCollapsed"
+              [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic"></i>
             </div>
-        </div> -->
+          </div>
+        
+      </div>
+      </div>
+      <div class="col-12 col-auto text-right">
+        <a class="text-muted" aria-disabled="true">Live Coding/Designing
+            <span class="live-status offline p-1 ml-1">OFFLINE</span></a>
+    </div>
+    </div>
+  
 
 
   </div>

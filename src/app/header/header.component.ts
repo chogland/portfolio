@@ -1,7 +1,7 @@
 import { Router } from '@angular/router';
-import { Component, ElementRef, Inject, OnInit } from '@angular/core';
-declare var $: any;
+import { Component, ElementRef, Inject, OnInit, HostListener } from '@angular/core';
 
+declare const window: any;
 
 @Component({
   selector: 'app-header',
@@ -11,18 +11,22 @@ declare var $: any;
 })
 export class HeaderComponent implements OnInit {
 
-  
+  header: string;
+  isCollapsed = true;
   constructor() { }
 
-  ngOnInit() {
-    $(document).on("scroll", function() {
+  ngOnInit() {}
 
-      if($(document).scrollTop()>100) {
-        $("header").removeClass("large").addClass("small");
-      } else {
-        $("header").removeClass("small").addClass("large");
-      }
+@HostListener("window:scroll", [])
+  onWindowScroll() {
+
+    const number = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    if (number > 222) {
+      //this.header = "small";
       
-    });
+    } else if (number < 100) {
+      //this.header = "large"
+        
+    }
   }
 }

@@ -12,6 +12,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { Shared } from './providers/shared';
 import { PortfolioItemDetailsComponent } from './portfolio-item-details/portfolio-item-details.component';
 import { item } from './item';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { item } from './item';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    CollapseModule.forRoot(),
   ],
   providers: [
     Shared, 

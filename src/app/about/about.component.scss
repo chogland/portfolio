@@ -1,0 +1,39 @@
+
+
+    .about-online-profile-image, .about-offline-profile-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:#fff;
+        background-position:center center;
+        img {
+            width:30%;
+            border-radius:100%;
+        }
+        .row:first-of-type {
+            background-color: rgba(0,0,0,0.5);
+          
+        }
+        .contact-icon {
+            border-radius: 100%;
+            border: 1px solid #fff;
+            padding: 1rem;
+            font-size: .8rem;
+            width: 80px;
+            height: 80px;
+            margin: 0 10px 0 10px;
+            i {
+                font-size:1.2rem;
+            }
+        }
+    }
+    .about-online-profile-image {
+        background-image:url("../../assets/images/development_bg_compressed.jpg");
+      
+    }
+    .about-offline-profile-image {
+        background-image:url("../../assets/images/out-office-bg.jpg");
+   
+    }
+.about-online, .about-offline {
+
+}

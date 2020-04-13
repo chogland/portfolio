@@ -1,5 +1,5 @@
-@import "../../app.scss";
-@import "../../variables.scss";
+@import "../../styles.scss";
+
 
 
 
@@ -7,42 +7,33 @@
   width:100%;
   z-index:100;
   min-height:100vh;
-  overflow-y:scroll;
   top:0;
   left:0;
   bottom:0;
   right:0;
+
 }
 
 header {
   transition: .7s all;
 	-moz-transition: .7s all;
 	-webkit-transition: .7s all;
-	-o-transition: .7s all;
-// &.small {
-// height:40px;
-// position:fixed;
-// top:0;
-// width:100%;
-// z-index:100;
-
-// .header_lg {
-//   font-size: 25px;
-//   line-height: normal;
-// display:inline-block;
-//   @include media-breakpoint-down(md) {  font-size: 25px;line-height: 55px; }
-// }
-// .header_md {
-//   display:none !important;
-// }
-
-// .header_sm {
-//   display:none  !important;
-// }
-
-// }
-&.large {}
+  -o-transition: .7s all;
   user-select: none;
+
+    &.small {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    .hide-small {
+      display:none;
+      
+    }
+    }
+    &.large {
+    }
+
   .uppertextleft {
     color: white;
     font-size: 2em;
@@ -159,7 +150,7 @@ header {
   }
 
   div.nav-link {
-    font-size:144px;
+    font-size:4rem;
    }
   .nav-link {
     font-weight: 700;
