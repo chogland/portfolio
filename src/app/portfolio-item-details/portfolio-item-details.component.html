@@ -1,7 +1,11 @@
 <div class="container">
-  <h2>Name: {{itemDataToShow?.name}}</h2>
-  <p>description: {{itemDataToShow?.description}}</p>  
-  <div class="col">
-    <img src="{{itemDataToShow?.image}}" alt="" />
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <img class="w-100" src="{{itemDataToShow?.image}}" alt="" />
+    </div>
+    <div class="col-12 col-md-6 p-3">
+      <h2>{{itemDataToShow?.name}}</h2>
+      <p [innerHTML]="itemDataToShow?.content"></p>  
+    </div>
   </div>
 </div>

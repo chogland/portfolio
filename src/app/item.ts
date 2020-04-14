@@ -4,4 +4,5 @@ export class item {
     description: string;
     type: string;
     image: string;
+    content: string;
 }
