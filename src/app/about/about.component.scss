@@ -13,6 +13,14 @@
             background-color: rgba(0,0,0,0.5);
           
         }
+        .contact-icon-a {
+            transition:transform 0.3s ease;
+            &:hover {
+                -webkit-transform: scale(1.3);
+                -ms-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+        }
         .contact-icon {
             border-radius: 100%;
             border: 1px solid #fff;
@@ -21,9 +29,12 @@
             width: 80px;
             height: 80px;
             margin: 0 10px 0 10px;
+            line-height: 1.5rem;
             i {
                 font-size:1.2rem;
             }
+            
+           
         }
     }
     .about-online-profile-image {

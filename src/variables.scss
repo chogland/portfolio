@@ -2,7 +2,11 @@
 $font-primary:    'PT Sans', sans-serif;
 $font-narrow: 'PT Sans Narrow', sans-serif;
 
-
+$theme-colors: (
+"primary": #163C54,
+"secondary": #1A82A1,
+"success": #FF6945
+);
 // Colors
 $colors: (
     white: #EBFAF2,

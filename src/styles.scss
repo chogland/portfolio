@@ -1,6 +1,9 @@
+
+
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../src/variables.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 
 @mixin color-modifiers($attribute: 'color', $prefix: '-') {
@@ -37,14 +40,7 @@ a {
   box-shadow: none;
   color:$color-white;
   &:hover {
-    font-weight:bold;
-    color:$color-orange;
-    &.a-linkedinblue {
-      color:#0072b1;
-    }
-    &.a-adobered {
-      color:#ff0000;
-    }
+   color:$color-orange;
     text-decoration:none;
   }
 }
@@ -78,12 +74,12 @@ body.developer-mode {
   .showDeveloper {
     display:block !important;
     opacity:1;
-    transition: opacity 1s ease;
+    // transition: opacity 1s ease;
   }
   .showDrummer {
    display:none !important; 
    opacity:0;
-   transition: opacity 1s ease;
+  //  transition: opacity 1s ease;
   }
 }
 

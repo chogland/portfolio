@@ -7,13 +7,13 @@
       [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation">
         CLOSE
       </div>
-      <div class="col-12 nav-link" routerLink="/about" routerLinkActive="active" data-toggle="collapse" data-target="#navDrawer" >
+      <div class="col-12 nav-link" routerLink="/about" routerLinkActive="active" aria-controls="navDrawer" (click)="isCollapsed = !isCollapsed" >
         ABOUT ME
       </div>
-      <div class="col-12 nav-link">
+      <div class="col-12 nav-link" routerLink="/portfolio" routerLinkActive="active" aria-controls="navDrawer" (click)="isCollapsed = !isCollapsed" >
         PORTFOLIO
       </div>
-      <div class="col-12 nav-link">
+      <div class="col-12 nav-link"  routerLinkActive="active" aria-controls="navDrawer" (click)="isCollapsed = !isCollapsed" >
         CONTACT ME
       </div>
 
@@ -62,7 +62,7 @@
         <p class="uppertextright"> Music </p>
     </div> -->
 
-      <div class="col-10 hide-small">
+      <div class="col hide-small">
         <div class="header_md text--blue">
           HELLO. MY NAME IS
         </div>
@@ -84,20 +84,13 @@
         </div>
         
       </div>
-      <div class="col-2">
+      <div class="col-auto pr-3 p-0">
         <!-- <img src="../../assets/images/Charlie-Header.png" class="img-charlie d-none d-md-block showDeveloper" alt="Charlie Hogland" />
         <img src="../../assets/images/Charlie-Header_music.png" class="img-charlie d-none d-md-block showMusic" alt="Charlie Hogland" /> -->
-       
-
-        <div class="row justify-content-end h-100 align-content-between">
-          <div class="col-12">
-            <div class="text-right pt-2">
-              <i id="menu-select" class="pr-0 mr-0 navbar-toggler fas fa-bars text--white" (click)="isCollapsed = !isCollapsed"
-              [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic"></i>
-            </div>
-          </div>
-        
-      </div>
+        <div class="text-right pt-2">
+          <i id="menu-select" class="pr-0 mr-0 navbar-toggler fas fa-bars text--white" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic"></i>
+        </div>
       </div>
       <div class="col-12 col-auto text-right">
         <a class="text-muted" aria-disabled="true">Live Coding/Designing
