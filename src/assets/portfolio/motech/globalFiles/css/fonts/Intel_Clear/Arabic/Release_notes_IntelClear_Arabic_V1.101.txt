@@ -1,0 +1,16 @@
+Date of creation: 2014-05-19
+
+Basic information
+1 Basic family name: Intel Clear WArabic
+2 TrueType Version record: 1.101
+3 Regional package: Arabic
+4 Supported scripts: Latin, Arabic
+5 Number of glyphs: 1345
+6 Weights/Styles: Light, Regular, Bold
+7 Usage: Text and Display
+
+
+Technology
+1 Files formats: The files have been delivered in the following formats: TrueType-based OpenType; EOT; WOFF.
+2 Embedding settings: Everything is allowed (installable mode); subsetting is allowed.
+3 Hinting information: All glyphs are manually hinted for optimized rasterization in Microsoft ClearType or for other LCD devices.

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 1024px) {
+ 
+	#textbox_1_3 p {padding: 0 10px;}
+	
+	#textbox_1_13 {width: 854px;}
+	
+	#textbox_1_14 {width: 864px;}
+	
+}

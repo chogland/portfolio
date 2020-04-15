@@ -1,0 +1,43 @@
+==Release notes_Intel Clear WJpn==
+
+Date of creation: 2016-09-07
+
+Basic information
+1 Font name: Intel Clear WJpn
+2 TrueType Version record: 1.002
+3 Regional package: Jpn
+4 Supported scripts: Japanese
+5 Number of glyphs: Light: 17471, Regular: 17629, Bold: 17379
+6 Weights/Styles: Light, Regular, Bold
+7 Usage: Text and Display
+
+Technology
+1 File formats: The files have been delivered in the following formats: TrueType-based OpenType; EOT; WOFF; WOFF2.
+2 Embedding settings: Everything is allowed (installable mode), allow subsetting.
+3 Hinting information: No hinting.
+
+Technology
+1 File formats: The files have been delivered in the TrueType-based OpenType format, for use in all major Operating Systems.
+2 Embedding settings: Everything is allowed (installable mode), allow subsetting.
+3 Hinting information: No hinting.
+	
+
+
+Usage Guidance
+:
+	*Japanese fonts come in two widths: proportional and fixed.
+
+	*Intel prefers that proportional fonts are used in communications.
+
+	*Both proportional fonts and fixed-width fonts can be used in most operating system and applications, such as Microsoft Office* and Adobe*.
+
+
+
+It is recommended to use proportional spacing for contemporary typesetting. Full-width is useful when the typeset text needs to look tabular or aligned vertically.
+
+
+
+* Other names and brands may be claimed as the property of others.
+
+
+* Other names and brands may be claimed as the property of others.

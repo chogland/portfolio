@@ -4,13 +4,18 @@
 
 
 #navDrawer {
-  width:100%;
+  width: 100vw; /* viewport width */
+    height: 100vh; /* viewport height */
+ 
   z-index:100;
   min-height:100vh;
   top:0;
   left:0;
   bottom:0;
   right:0;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding-bottom: 3rem;
 
 }
 
@@ -149,19 +154,28 @@ header {
     border-bottom-color: #fff;
   }
 
-  div.nav-link {
-    font-size:4rem;
+  a.nav-link {
+    font-size: 15vw;
+     @include media-breakpoint-up(md) { 
+      font-size: 8vw; 
+    }
+    &#nav-close {
+      font-size:10vw;
+      @include media-breakpoint-up(md) { 
+        font-size: 5vw; 
+      }
+    }
    }
   .nav-link {
     font-weight: 700;
     color: rgba(255, 255, 255, 0.5);
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
-  font-size:24px;
+  // font-size:24px;d
     display: inline-block;
-    @include media-breakpoint-down(md) { 
-      font-size: 58px; 
-    }
+    // @include media-breakpoint-down(md) { 
+    //   font-size: 58px; 
+    // }
     &:hover {
       color:$orange;
     }
@@ -170,7 +184,7 @@ header {
 
     cursor:pointer;
     svg {
-      height: 30px;
+      height: 44px;
      
     }
     &:hover,
@@ -179,84 +193,88 @@ header {
         svg {
           color:blue;
         }
-        &:after {
-          content: " Web";
-          display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align:center;
-    line-height: 78%;
-        }
+      
       }
       &.design_hover {
         svg {
           color:green;
         }
-        &:after {
-          content: " Design";
-          display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align:center;
-    line-height: 78%;
-        }
+        
       }
       &.music_hover {
         svg {
           color:yellow;
         }
-        &:after {
-          content: " Music";display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          text-align:center;
-          line-height: 78%;
-        }
+       
       }
       &.git_hover {
         svg {
           color:orange;
         }
-        &:after {
-          content: " Git Hub";display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          text-align:center;
-          line-height: 78%;
-        
-        }
+      
       }
       &.youtube_hover {
         svg {
           color:red;
         }
-        &:after {
-          content: " YouTube";display: block;
-          position: absolute;
-          top: 0;
-    left: 0;
-    text-align:center;
-    line-height: 78%;
-        }
+     
       }
       &.mail_hover {
         svg {
           color:pink;
         }
-        &:after {
-          content: " E-Mail";display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          text-align:center;
-          line-height: 78%;
-        }
+       
       }
     }
+  }
+
+  .nav-link-icons {
+    cursor:pointer;
+    margin: 0 2vw;
+
+    svg {
+      height: 44px;
+     
+    }
+    &:hover,
+    &:focus {
+      &.web_hover {
+        svg {
+          color:blue;
+        }
+      
+      }
+      &.design_hover {
+        svg {
+          color:green;
+        }
+        
+      }
+      &.music_hover {
+        svg {
+          color:yellow;
+        }
+       
+      }
+      &.git_hover {
+        svg {
+          color:orange;
+        }
+      
+      }
+      &.youtube_hover {
+        svg {
+          color:red;
+        }
+     
+      }
+      &.mail_hover {
+        svg {
+          color:pink;
+        }
+       
+      }
+      }
   }
 }
 

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*INTEL CLEAR*/
+
+/* normal */
+@font-face {
+	font-family: 'IntelClear-cyr';
+	src: url('fonts/Intel_Clear/Cyrl/IntelClear_WCyrl_Rg.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* bold */
+@font-face {
+	font-family: 'IntelClear-cyr';
+	src: url('fonts/Intel_Clear/Cyrl/IntelClear_WCyrl_Bd.woff') format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* italic */
+@font-face {
+	font-family: 'IntelClear-cyr';
+	src: url('fonts/Intel_Clear/Cyrl/IntelClear_WCyrl_It.woff') format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* bold italic */
+@font-face {
+	font-family: 'IntelClear-cyr';
+	src: url('fonts/Intel_Clear/Cyrl/IntelClear_WCyrl_BdIt.woff') format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* lighter */
+@font-face {
+	font-family: 'IntelClear-cyr';
+	src: url('fonts/Intel_Clear/Cyrl/IntelClear_WCyrl_Lt.woff') format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+
+/* lighter italic */
+@font-face {
+	font-family: 'IntelClear-cyr';
+	src: url('fonts/Intel_Clear/Cyrl/IntelClear_WCyrl_LtIt.woff') format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+
+
+.intelClear {
+	font-family: IntelClear-cyr, IntelClear, Arial, sans-serif;
+}
+
+.intelClearPro {
+	font-family: IntelClearPro, IntelClear-cyr, IntelClear, Arial, sans-serif;
+}
+
+#quiz-body {
+   font-family: IntelClear-cyr, IntelClear, Arial, sans-serif;  
+}
+
+body {  font-family: IntelClear-cyr, IntelClear, Arial, sans-serif; } 
+
+
+
+

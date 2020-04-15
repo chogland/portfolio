@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Css In Lang drop down*/
+
+#click_to_change {
+    background: #333;
+    height: 50px;
+    right: 25px;
+    position: fixed;
+    top: 25px;
+    width: 125px;
+    z-index: 2147483647;
+    xcursor: pointer;
+    opacity: 0.25;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, .25);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .25);
+   
+}
+#click_to_change:hover {
+    opacity: 1;
+}
+#click_to_change form {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.slider_active_btn {
+    background-position: center bottom !important;
+}
+#click_to_refresh_lang_css {
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 16px;
+    height: 25px;
+    position: absolute;
+    right: -5px;
+    top: 14px;
+    width: 25px;
+}
+#form_expand_click {
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 20px;
+    height: 25px;
+    position: absolute;
+    right: 25px;
+    top: 8px;
+    width: 12px;
+}
+
+@-moz-document url-prefix() {
+    #form_expand_click {
+        background-position: center top;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        font-size: 20px;
+        height: 25px;
+        position: absolute;
+        right: 26px;
+        top: 11px;
+        width: 15px;
+    }
+    #click_to_refresh_lang_css {
+        background-position: center top;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        font-size: 20px;
+        height: 25px;
+        position: absolute;
+        right: -1px;
+        top: 10px;
+        width: 25px;
+    }
+}
+
+
+
+/* -----------------------------------------------------
+
+    MODULE 
+
+-------------------------------------------------------- */
+
+#cover_slider {
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    top: -190px;
+    left: -360px;
+    background-image:url(../../globalFiles/images/cover_slider.png);
+    transform-origin: 50% 50%;
+    z-index:99999999;
+    display:none;
+    pointer-events: none;
+}
+
+
+
+
+/* Slider Styles --------------------------------------------------------------------------- */
+
+#controls {
+    position: absolute;
+    background: #333333;
+    height: 40px;
+    padding: 5px 10px;
+    width: 900px;
+    z-index: 2147483647;
+    opacity: 0.25;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,.25);
+    bottom: 25px;
+    left: calc(50% - 460px);
+}
+
+#controls.goUp {
+    top: 25px;
+    bottom: unset;
+}
+
+#slider{ width: 100%; height:2px; margin: 0px 0px 13px 0px;	}
+
+.slider_button_wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 40%;
+}
+
+#sbw_center {
+    width: 20%;
+}
+
+
+.slider_button_wrapper div {
+    display: inline-block;
+	width:20px;
+	height:20px;
+    margin: 0 10px;
+	cursor:pointer;
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+#reverseBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_reverse.png);
+}
+
+#playBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_play.png);
+}
+
+#pauseBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_pause.png);
+}
+
+#parkTimelineBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_module_size.png);
+}
+
+#coverScreenBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_cover.png);
+}
+
+#stopAll {
+	background-image:url(../../globalFiles/images/control_images/control_icon_stopTL.png);
+}
+
+#gridlinesBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_grid.png);
+}
+#swapPosBtn {
+	background-image:url(../../globalFiles/images/control_images/control_icon_arrow.png);
+}
+#controls.goUp #swapPosBtn {
+    transform: rotate(180deg)
+}
+
+#moveDivBtn {
+	background-image:url(../../globalFiles/images/control_images/move_icon.png);
+}
+
+
+#gridlines::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    background-color: black;
+	z-index: 1000;
+}
+
+#gridlines::after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    background-color: black;
+	z-index: 1000;
+}
+
+#moduleBackground.gridlines::after, #moduleBackground.gridlines::before {opacity: 1;}
+
+.slider_button_wrapper div:hover  {background-position:bottom center;}
+
+#timeScale_wrapper p {margin-right: 8px;}
+
+#timeScale_wrapper ul { 
+	margin: 0px;
+    padding-left: 0px; 
+}
+
+#timeScale_wrapper ul li { 
+	display:inline; 
+	margin-bottom: 0px; 
+	color:#cccccc; 
+	margin-right: 8px; 
+    cursor: pointer;
+}
+
+#timeScale_wrapper ul li:hover {color: #cc0000;}
+
+.slider_active_speed_btn {color:#cc0000 !important;}
+
+.slider_active_btn {background-position:bottom center !important;}
+
+
+@media only screen and (max-width: 1130px) {
+    #controls {
+        width: 450px;
+        left: calc(50% - 235px);
+    }
+    
+    .slider_button_wrapper div {
+        margin: 0 5px;
+    }
+
+}
+
+#timer_display {
+	width:125px;
+	height:75px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 0px 0px 2px 2px rgba(255,255,255,.25);
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,.25);
+	background:#333;
+	position:absolute;
+	top:25px;
+	right:185px;
+	z-index: 2147483647;
+	color:#fff;
+	opacity:0.25;
+}
+
+#timer_display_inner {
+	margin-left:auto;
+	margin-right:auto;
+	width:107px;
+}
+#timer_display p { color:#fff !important; margin: 6px 0;}
+
+#timer_display:hover { opacity:1; }
+
+input#go_time { width:50px; border-radius:0px; }
+
+.mt_draggable_hover {
+	outline: 1px solid black;
+}
+
+/* Slider Styles from jQuery UI ---------------------------------------- */
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #333;
+}
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    font-weight: bold;
+    color: #1c94c4;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1em;
+    height: 1em;
+    cursor: default;
+}
+
+
+
+
+
+

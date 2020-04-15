@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, ul, td, #quiz-body {direction: rtl;}
+
+ul#nav_menu {direction: ltr;}
+#nav_menu li {text-align:right;}
+
+#main_wrapper ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 35px;
+	padding-right: 15px;
+}
+
+ul {
+    margin-left: 0px;
+	margin-right: 15px;
+}
+
+ul li {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+#scene_legal .legal_wrapper_inner {
+    text-align: right;
+}
+
+#main_wrapper ul {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.scene ul li, .scene ol li {line-height: 130%;}
+
+.scene ul li {
+    text-indent: -1em;
+    list-style-type: none !important; 
+}
+
+.scene ul li:before {
+    content: "•";
+    padding-left: 15px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    
+}
+
+#textbox_1_8, #textbox_1_12, #textbox_1_13, #textbox_1_14 {text-align: right;}

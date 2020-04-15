@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html class="infographic_course">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title data-localeid="199831">Intel Learning Infograph</title>
+
+    <link rel="stylesheet" href="../globalFiles/css/fonts-1.css">
+    <link rel="stylesheet" href="../globalFiles/css/quiz-1.css" />
+    <link rel="stylesheet" href="css/default.css">
+    <link id="Update-Main-CSS" rel="stylesheet" href="css/infographic.css">
+    <link type="text/css" rel="stylesheet" href="../globalFiles/css/dev-tools-1.css">
+
+    <style>
+        @keyframes mouse-wheel {
+            0% {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                -ms-transform: translateY(0);
+                transform: translateY(0)
+            }
+            100% {
+                opacity: 0;
+                -webkit-transform: translateY(8px);
+                -ms-transform: translateY(8px);
+                transform: translateY(8px)
+            }
+        }
+
+        #mouse_anim {
+            height: 42px;
+            width: 24px;
+            border-radius: 14px;
+            transform: none;
+            border: 2px solid #fff;
+            top: 170px;
+            margin-bottom: 20px
+        }
+
+        #mouse_wheel {
+            display: block;
+            margin: 5px auto;
+            background: #fff;
+            position: relative;
+            height: 4px;
+            width: 2px;
+            border: 2px solid #fff;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+            -webkit-animation: mouse-wheel .8s linear infinite;
+            -moz-animation: mouse-wheel .8s linear infinite;
+            animation: mouse-wheel .8s linear infinite
+        }
+    </style>
+
+</head>
+
+<body class="loading_no_scrolling intelClear">
+
+    <div id="preloader" style="background-color: #0061a6; width: 100%; height: 100%; position: fixed; z-index:600;">
+        <img id="loader_gif" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" width="68"
+            height="68" src="../globalFiles/images/loading.gif">
+    </div>
+
+    <!--NAV AREA-->
+    <div id="nav_wrapper">
+        <div id="nav_icon_wrapper">
+            <div id="nav_menu_burger">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+                    height="100%" viewBox="0 0 108 108" enable-background="new 0 0 108 108" xml:space="preserve">
+                    <line id="burger_bot" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="18"
+                        y1="73.7" x2="88.4" y2="73.7" />
+                    <line id="burger_mid" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="18"
+                        y1="53.9" x2="88.4" y2="53.9" />
+                    <line id="burger_top" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="18"
+                        y1="34" x2="88.4" y2="34" />
+                </svg>
+            </div>
+            <div id="nav_menu_X">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+                    height="100%" viewBox="0 0 130.3 130.5" enable-background="new 0 0 130.3 130.5" xml:space="preserve">
+                    <path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" d="M29.7,32L99,101.3 M99,32l-69.3,69.3"
+                    />
+                </svg>
+            </div>
+        </div>
+        <ul id="nav_menu">
+            <li id="nav_bottom_quit">
+                <p class="p20 " data-universalid="119913">Quit</p>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!--MAIN CONTENT AREA	-->
+    <div id="main_wrapper">
+
+        <!--TITLE & LEGAL CONTENT AREA  -->
+        <div id="opener_screen">
+            <div id="opener_screen_content">
+                <table border="0" width="100%" height="100%">
+                    <tbody>
+                        <tr>
+                            <td>
+
+                                <!--Title text-->
+                                <p class="p45 white" data-localeid="199831">Build a Gaming Rig</p>
+
+                                <!--short description text-->
+                                <p class="p18 white " data-localeid="199832">Assembling a gaming PC will supercharge your customers’ gaming experiences and allow them to upgrade their hardware.</p>
+
+                                <!--Legal text-->
+                                <p class="p25 legaldisclaimers "data-universalid="119907">Legal Disclaimers</p>
+                                <div id="legal_wrapper_full">
+                                    <div id="legal_wrapper_full_inner">
+
+                                        <p data-universalid="119926">Materials are Intel Confidential. For Retail Sales Professional training only. Do
+                                            not repurpose or reuse without permission.</p>
+                                        <p data-localeid="199890">© 2018 Intel Corporation. Intel, the Intel logo, Intel Retail Edge Program, Intel
+                                            Retail Edge Live, and Intel Core are trademarks of Intel Corporation or its subsidiaries
+                                            in the U.S. and/or other countries.</p>
+                                        <p data-universalid="119927">*Other names and brands may be claimed as the property of others.</p>
+
+                                    </div>
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr height="80px">
+                            <td align="center">
+                                <div id="mouse_anim">
+                                    <div id="mouse_wheel"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div id="header">
+            <div class="wrapper">
+                <div class="gamingRig"></div>
+                <div class="gamingRig_copy">
+
+                    <table>
+                        <tr>
+                            <td class="purpleBG center">
+                                <h2 class="p40 white" data-localeid="199833">BUILD A GAMING RIG</h2>
+                                <div class="gamingRig_line"></div>
+                                <p class="p16 " data-localeid="199834">Many customers are ready to step up and conquer the world with their very own custom gaming
+                                    rig. It’s never been easier to assemble this type of computer.
+                                </p>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height:25px;"></td>
+                        </tr>
+                        <tr>
+                            <td class="purpleBG center">
+                                <h2 class="p40 white" data-localeid="199835">GAMING PC HARDWARE</h2>
+                                <div class="gamingRig_line"></div>
+                                <p class="p16 " data-localeid="199836">Components, such as processors, graphics cards, motherboards, and solid-state drives (SSD)
+                                    are readily available and very user-friendly, offering easy installation and software
+                                    configuration.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- 
+        <div id="box_1">
+            <div class="wrapper">
+                <table align="center" class="adjWidth">
+                    <tr>
+                        <td class="center">
+                          
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div> -->
+
+        <div id="box_2">
+
+            <div class="wrapper">
+                <h2 class="p32 white center paddingTop" data-universalid="119929">INSTRUCTIONS:</h2>
+                <p class="p16  center" data-localeid="199837">Click each icon to reveal more information about PC gaming components. </p>
+                <div id="pc_case"></div>
+                <div class="screw" id="screw1"></div>
+                <div class="screw" id="screw2"></div>
+                <div class="screw" id="screw3"></div>
+                <div class="screw" id="screw4"></div>
+                <div class="screw" id="screw5"></div>
+                <div class="screw" id="screw6"></div>
+                <div class="screw" id="screw7"></div>
+                <div class="washer" id="washer1"></div>
+                <div class="washer" id="washer2"></div>
+                <div class="washer" id="washer3"></div>
+                <div id="pc_mobo" class="pcItem"></div>
+                <div id="pc_chip" class="pcItem"></div>
+                <div id="pc_graphics" class="pcItem"></div>
+                <div id="pc_ram" class="pcItem"></div>
+                <div id="pc_os" class="pcItem"></div>
+                <div id="pc_mouse" class="pcItem"></div>
+                <div id="pc_cooler" class="pcItem"></div>
+                <div id="pc_psu" class="pcItem"></div>
+                <div id="pc_hdd" class="pcItem"></div>
+                <div id="pc_optane" class="pcItem"></div>
+                <div id="pc_caseCover" class="pcItem"></div>
+
+                <div id="pc_fidget"></div>
+                <div id="pc_thumbDrive"></div>
+                <div id="pc_tablet"></div>
+                <div id="pc_vr"></div>
+                <div id="pc_usbCable"></div>
+                <div id="pc_controller"></div>
+                <div class="pcComplete">
+                    <div id="pc_complete_mobo"></div>
+                    <div id="pc_complete_cpu"></div>
+                    <div id="pc_complete_gpu"></div>
+                    <div id="pc_complete_ram"></div>
+                    <div id="pc_complete_cooler"></div>
+                    <div id="pc_complete_hdd"></div>
+                    <div id="pc_complete_optane"></div>
+                    <div id="pc_complete_case"></div>
+                    <div id="pc_complete_psu"></div>
+
+                </div>
+
+                <div id="pc_screwdriver"></div>
+                <div id="mobo_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_mobo">
+
+                    <div class="popup_img">
+                        <img src="images/pop-up-box-motherboard.png" alt="" />
+
+                    </div>
+                    <div class="popup_text" id="mobo_text_1">
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="p32 white" data-localeid="199846">Motherboard</h2>
+                                    <p data-localeid="199847">If the processor is the brain, the motherboard acts as the nervous system. The motherboard
+                                        communicates the CPU’s directions to all the other key components in the gaming PC—graphics
+                                        cards, memory, hard drives, optical drives, and even network cards. </p>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="popup_text" id="mobo_text_2">
+                        <div id="popup_mobo_plus">
+                        </div>
+                        <div id="popup_mobo_cpu">
+                        </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p data-localeid="199848">Selecting a processor and a motherboard should be done in tandem, as there are compatibility
+                                        requirements. For example, the socket type for the motherboard must match the processor.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="mobo_text_3">
+
+                        <div id="popup_close_mobo" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p><span data-localeid="199849">However, sometimes a motherboard <i>will</i> be compatible with a processor, but it may not support everything a processor can do. For example, a motherboard could be compatible with an unlocked Intel® Core™ i7 processor (K SKU), but it might not support overclocking.</span> <a href="https://ark.intel.com" target="_blank"><span data-localeid="199905">Ark.intel.com</span></a> <span data-localeid="199906">is a great resource to check specifications and requirements.</span> </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_next" id="pc_mobo_next"></div>
+                    <div class="popup_back" id="pc_mobo_back"></div>
+
+                </div>
+                <div id="cpu_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_cpu">
+
+                    <div class="popup_text" id="cpu_text_1">
+                        <div class="popup_img" id="popup_cpu_chip">
+                            <img src="images/pop-up-CPU.png" alt="" />
+
+                        </div>
+                     
+                       
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199838">CPU/PROCESSOR</h2>
+                                    <p data-localeid="199839">At the center of any gaming build is the processor. The processor is the brain of the
+                                        operation—it controls what and how fast things get done. </p>
+
+                                    <p data-localeid="199840">Recommend these top-performing Intel® processors to gaming customers:</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="cpu_text_2">
+                            <div class="popup_img" id="popup_cpu_X">
+                                    <img src="images/pop-up-CPU-2.png" alt="" />
+        
+                                </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white" data-localeid="199841">INTEL® CORE™ X-SERIES PROCESSORS</h2>
+                                    <p data-localeid="199842">Intel’s most powerful processor providing a world class platform for gaming, content
+                                        creation, and over-clocking. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="cpu_text_3">
+                        <div id="popup_close_cpu" class="popup_close"></div>
+                        <div class="popup_img" id="popup_cpu_eighth">
+                                <img src="images/pop-up-CPU-3.png" alt="" />
+    
+                            </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199843">8th gen Intel® Core™ processors:</h2>
+                                    <p data-localeid="199844">K SKUs: Unlocked, and overclockable for maximum gaming performance</p>
+                                    <p data-localeid="199845">SKUs without a letter suffix (commonly called “S SKUs”): Desktop processors with the
+                                        power for high settings and smooth gameplay
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_next" id="pc_cpu_next"></div>
+                    <div class="popup_back" id="pc_cpu_back"></div>
+                </div>
+                <div id="gpu_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_gpu">
+                        <div class="popup_img">
+                                <img src="images/pop-up-box-graphics.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="gpu_text_1">
+                       
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199850">GRAPHICS</h2>
+                                    <p><span data-localeid="199851">There are two types of graphics—integrated and discrete (also known as “dedicated”). Integrated graphics are built into the processor. While integrated graphics may be less powerful than discrete graphics, they do help conserve energy, and are great for playing casual games. Check out</span> <a href="https://gameplay.intel.com" target="_blank"><span data-localeid="199907">gameplay.intel.com</span></a> <span data-localeid="199908">for gaming titles that are optimized to play better using processors with integrated Intel® graphics technology.</span></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="gpu_text_2">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p data-localeid="199852">Discrete graphics are a must for any serious gamer playing high-end, intensive games,
+                                        and there are a lot of options. Discrete graphics include the graphics processing
+                                        unit (GPU) which converts video signals and performs complex calculations to transform
+                                        binary data into the rendered graphics you see in games. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="gpu_text_3">
+                        <div id="popup_close_gpu" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p data-localeid="199853">To get the most out of their graphics card, and for the best gaming experience, remind
+                                        customers they should pair their discrete graphics card with a high-performing Intel®
+                                        Core™ processor. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_next" id="pc_gpu_next"></div>
+                    <div class="popup_back" id="pc_gpu_back"></div>
+                </div>
+                <div id="ram_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_ram">
+                        <div class="popup_img">
+                                <img src="images/pop-up-ram.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="ram_text_1">
+                       
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199854">MEMORY/RAM</h2>
+                                    <p data-localeid="199855">RAM, or random access memory, helps a gaming PC access files quickly and run multiple
+                                        instructions at once without lagging. The more RAM, and the faster RAM, the better
+                                        experience gamers have. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="ram_text_2">
+                        <div id="popup_close_ram" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p data-localeid="199856">How much RAM is enough for gamers? While 8 GB of RAM will serve nicely, top gaming enthusiasts
+                                        will use 16 GB of RAM or more in their rigs. A motherboard typically has four memory
+                                        slots—pros suggest using two slots for 8 GB modules (instead of 4 GB in each) to
+                                        allow for future expandability.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_next" id="pc_ram_next"></div>
+                    <div class="popup_back" id="pc_ram_back"></div>
+
+                </div>
+                <div id="os_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_os">
+                    <div class="popup_text" id="os_text_1">
+                        <div class="popup_img">
+                            <img src="images/pop-up-OS.png" alt="" />
+
+                        </div>
+                        <div id="popup_close_os" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199857">OPERATING SYSTEM (OS)</h2>
+                                    <p data-localeid="199858">Customers who build their own gaming PC can choose the operating system. They should
+                                        think about what programs and applications they’ll run (in addition to games) and
+                                        make sure the chosen OS will work well with everything. A popular OS choice is Windows*
+                                        10 but there are other options as well. It’s a good idea to check the OS requirements
+                                        for gaming titles to ensure compatibility.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+
+                </div>
+                <div id="mouse_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_mouse">
+                        <div class="popup_img" id="popup_mouse_img">
+                                <img src="images/pop-up-peripherals-1.png" alt="" />
+    
+                            </div>
+                            <div class="popup_img" id="popup_mouse_img_2">
+                                    <img src="images/pop-up-peripherals-2.png" alt="" />
+        
+                                </div>
+                    <div class="popup_text" id="mouse_text_1">
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199882">Gaming Peripherals</h2>
+                                    <p data-localeid="199883">Gaming customers will want a special mouse and keyboard designed for the rigors of gaming
+                                        to fully complete their system. Keep in mind that most gaming peripherals are wired
+                                        to help reduce latency. </p>
+
+                                    <p data-localeid="199884">Gaming mice should be comfortable, ergonomic, and withstand hours of use. Most have customizable
+                                        buttons and offer extra precision and accuracy. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="mouse_text_2">
+                        <div id="popup_close_mouse" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    
+                                    <p data-localeid="199885">Gaming keyboards are a must for most gamers, especially if they enjoy first-person shooters
+                                        (FPS), strategy games, or Massively Multiplayer Online games (MMOs). Gaming keyboards
+                                        include features like mechanical keys, extra keys for programming macros, and even
+                                        colorful backlit illumination. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_next" id="pc_mouse_next"></div>
+                    <div class="popup_back" id="pc_mouse_back"></div>
+
+                </div>
+                <div id="cooler_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_cooler">
+                        <div class="popup_img">
+                                <img src="images/pop-up-cooling.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="cooler_text_1">
+                      
+                        <div id="popup_close_cooler" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199876">COOLING SOLUTION</h2>
+                                    <p data-localeid="199877">Gaming rigs generate a lot of heat. Typically, these desktops are shipped with fans and
+                                        heat sinks already built in to dissipate some of the heat created by the processor
+                                        and the graphics card. Also, PC cases now often come with intake and exhaust fans
+                                        already installed. This is usually enough for a regular PC, but if customers overclock
+                                        the CPU, they’ll need advanced cooling, such as a liquid cooling solution. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+      
+
+                </div>
+                <div id="psu_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_psu">
+                        <div class="popup_img">
+                                <img src="images/pop-up-powersupply.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="psu_text_1">
+                       
+                        <div id="popup_close_psu" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199874">Power Supply Unit (PSU)</h2>
+                                    <p data-localeid="199875">Don’t underestimate the importance of the power supply! The wattage and quality of the
+                                        PSU matters. In fact, the processor, the graphics card and the number of components
+                                        used can dictate the minimum power requirements. While most hardware manufacturers
+                                        ship 500-watt PSUs for gaming rigs, machines with high-end graphics cards need at
+                                        least a 650-watt PSU. Remember! A cheap PSU, or one that can’t handle the load, could
+                                        ruin any gaming experience.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                  
+
+                </div>
+                <div id="hdd_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_hdd">
+                        <div class="popup_img">
+                                <img src="images/pop-up-storage.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="hdd_text_1">
+                     
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199859">STORAGE</h2>
+                                    <p data-localeid="199860">The next decision? Solid-state drive (SSD), hard disk drive (HDD) or both? Compare them
+                                        to help customers decide on the best storage solution for their new rig. </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="popup_text" id="hdd_text_2">
+                        <div id="popup_close_hdd" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td class="white">
+                                    <p class="p24" data-localeid="199861">Hard disk drives</p>
+                                    <ul>
+                                        <li data-localeid="199862">Offer affordable solution </li>
+                                        <li data-localeid="199863">Provide large capacities </li>
+                                        <li data-localeid="199864">Offer simple file management</li>
+                                    </ul>
+                                    <p class="p24" data-localeid="199865">Solid-state drives</p>
+                                    <ul>
+                                        <li data-localeid="199866">May cost more than HDDs</li>
+                                        <li data-localeid="199867">Provide large capacities</li>
+                                        <li data-localeid="199868">Deliver faster speeds than HDDs</li>
+                                        <li data-localeid="199869">Offer simple file management</li>
+                                    </ul>
+                                    <p class="p24" data-localeid="199870">Dual drives</p>
+                                    <ul>
+                                        <li data-localeid="199871">Prices vary</li>
+                                        <li data-localeid="199872">Allow customers to prioritize speed or capacity</li>
+                                        <li data-localeid="199873">Offer more complex file management</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="popup_next" id="pc_hdd_next"></div>
+                    <div class="popup_back" id="pc_hdd_back"></div>
+                </div>
+                <div id="optane_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_optane">
+                        <div class="popup_img">
+                                <img src="images/pop-up-optane.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="optane_text_1">
+                    
+                        <div id="popup_close_optane" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199886">Intel® Optane™ Memory)</h2>
+                                    <p data-localeid="199887">Your customers might not be familiar with this new technology from Intel, but you will
+                                        definitely start hearing more about it as it becomes available in more systems. You
+                                        can tell customers that Intel® Optane™ memory is a smart, adaptable system accelerator.
+                                        When paired with a 7th gen Intel® Core™ processor or newer, it provides fast game
+                                        level-loading for smooth gameplay. Check out our other trainings about Intel® Optane™
+                                        memory to learn more!</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+                <div id="cpucover_dimmer" class="popup_PC_dimmer"></div>
+                <div class="popup_PC" id="popup_cpucover">
+                        <div class="popup_img">
+                                <img src="images/pop-up-case.png" alt="" />
+    
+                            </div>
+                    <div class="popup_text" id="cpucover_text_1">
+                       
+                        <table>
+                            <tr>
+                                <td>
+                                    <h2 class="white p32" data-localeid="199878">CASES</h2>
+                                    <p data-localeid="199879">Cases come in a variety of styles, sizes, and configurations so customers can really
+                                        personalize their build. </p>
+
+                                    <p data-localeid="199880">There are many things to keep in mind in choosing a case. First, consider the components—will
+                                        they all fit into the case? Are they easily accessible? Is there any additional room
+                                        for more drives or upgrades? Is there a need for an advanced cooling system or extra
+                                        fans? Is it compatible with the motherboard? </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="popup_text" id="cpucover_text_2">
+                        <div id="popup_close_cpucover" class="popup_close"></div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p data-localeid="199881">Gamers should also consider whether they want to really personalize the case with additional
+                                        design features like LED lights, color coordination with components, and more!</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="popup_next" id="pc_cpucover_next"></div>
+                    <div class="popup_back" id="pc_cpucover_back"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--TAKE THE QUIZ SECTION CLICK AREA-->
+        <div id="quiz_box">
+            <div class="wrapper">
+                <table class="adjWidth">
+                    <tr>
+                        <td class="center">
+                            <h2 class="p50  white center" data-localeid="199888">PUTTING IT ALL TOGETHER</h2>
+                            <div class="gamingRig_line center"></div>
+							<p class="p16 center"><span data-localeid="199889">Once all the components are chosen, it’s time to install them. Encourage customers to spend as much time as necessary researching components and their compatibility so it’s easy to assemble their gaming PC. Recommend sites such as</span> <a href="https://pcpartpicker.com" target="_blank"><span data-localeid="199909">pcpartpicker.com</span></a> <span data-localeid="199910">or</span> <a href="https://www.newegg.com" target="_blank"><span data-localeid="199911">newegg.com.</span></a> <span data-localeid="199912">Remind gaming customers building their own rig to take their time, follow manufacturers’ instructions, and enjoy the process!</span> </p>
+
+                            <p class="p30 lte white  startQuiz" data-universalid="119928">Take the Quiz</p>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!--Drop down to change the languages for review-->
+    <div id="dev_tool_wrapper"></div>
+
+    <script type="text/javascript" src="../globalFiles/js/jquery/jquery-3.1.1.min.js"></script>
+    <!-- <script type="text/javascript" src="../utilities/motech.js"></script> -->
+    <script type="text/javascript" src="../globalFiles/js/greensock/TweenMax-1.20.3.min.js"></script>
+    <script type="text/javascript" src="../globalFiles/js/plugin/jquery.waypoints.min.js"></script>
+
+    <!--Greensock Files-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/MorphSVGPlugin-0.8.11.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/Draggable-0.16.0.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/DrawSVGPlugin-0.1.5.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/ThrowPropsPlugin-0.11.1.min.js"></script>-->
+
+    <!--CustomWiggle and CustomBounce require CustomEase-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/CustomEase-0.2.2.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/CustomWiggle-0.2.1.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/CustomBounce-0.2.1.min.js"></script>-->
+
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="../globalFiles/js/dev-tools-2.js"></script>
+    <!-- <script type="text/javascript" src="../globalFiles/js/api-1.js"></script> -->
+    <script type="text/javascript" src="../globalFiles/js/quiz-1.js"></script>
+    <!-- <script type="text/javascript" src="../globalFiles/js/text-replace-2.js"></script> -->
+    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+
+</body>
+
+</html>

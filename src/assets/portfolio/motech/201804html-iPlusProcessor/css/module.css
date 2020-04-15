@@ -1,0 +1,1252 @@
+/* ----------------------------------
+        MODULE STYLES
+---------------------------------- */
+
+/* FONT STYLES --------------------------------------------------------------------------- */
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    line-height: 130%;
+}
+
+.scene ul {
+    margin-left: 35px;
+    padding-left: 15px;
+}
+
+.scene ul li {
+    margin-bottom: 10px;
+    color:#fff;
+    list-style: disc;
+}
+
+/* OFFICIAL IREP COLORS */
+.intel_blue { color:#0071C5; }
+.white { color:#FFFFFF; }
+.dk_blue { color:#003C71; }
+.sky_blue { color:#00AEFF; }
+.lt_blue { color:#69D6FF; }
+.yellow { color:#FFC50C;}
+.lt_yellow { color:#F3D54E; }
+.green { color:#C4D600; }
+.orange { color:#FFA300; }
+.red_orange { color:#FC4C02; }
+
+/* Check hex colors here: http://www.htmlcsscolor.com/ */
+.veridian_green { color:#4B5B64; }
+.bali_hai { color:#8798A2; }
+.night_rider { color:#333333; }
+.dim_gray { color:#666666; }
+.nobel { color:#999999; }
+.very_lt_gray { color:#CCCCCC; }
+.chathams_blue { color:#2E5B74; }
+.allports { color:#156587; }
+.dk_cerulean { color:#193F6F; }
+.dk_cerulean_2 { color:#005387; }
+.maya_blue { color:#69D6FF; }
+.onahau { color:#C5EFFF; }
+.vida_loca { color:#5D8721; }
+.sushi { color:#74A72D; }
+.atlantis { color:#A6CE39; }
+.la_rioja { color:#C3D600; }
+.golden_poppy { color:#FFC50C; }
+.pumpkin { color:#F36C21; }
+.vermilion { color:#FB4B02; }
+.harley_davidson_orange { color:#E1261C; }
+
+.bg_green    { background-color:#6ebe49; }
+.bg_dk_green { background-color:#659e44; }
+.bg_lt_green { background-color:#89d359; }
+.bg_teal     { background-color:#329da5; }
+.bg_dk_teal  { background-color:#227d7f; }
+.bg_lt_teal  { background-color:#47bcbf; }
+.bg_blue     { background-color:#31a9dd; }
+.bg_dk_blue  { background-color:#1d84a0; }
+.bg_lt_blue  { background-color:#48c2ed; }
+.bg_yellow   { background-color:#f4c225; }
+.bg_dk_yellow { background-color:#cc9e1b; }
+.bg_lt_yellow { background-color:#f9d264; }
+.bg_purple    { background-color:#bb377f; }
+.bg_dk_purple { background-color:#841e5f; }
+.bg_lt_purple { background-color:#d651a0; }
+.bg_red       { background-color:#eb4e45; }
+.bg_dk_red    { background-color:#bc3225; }
+.bg_lt_red    { background-color:#fc6c68; }
+.bg_gray      { background-color:#555; }
+.bg_dk_gray   { background-color:#111; }
+.bg_lt_gray   { background-color:#999; }
+.bg_black     { background-color:#000; }
+.bg_white     { background-color:#fff; }
+.spaceGreen {
+	color: #21ff84;
+}
+
+.spaceYellow {
+	color:#b5c122;
+}
+
+
+/* MISC ----------------------------------------------------------------- */
+
+#main_wrapper table {table-layout:fixed;}
+
+.bgStyle {
+    position: absolute;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    top: 0px;
+    left: 0px;
+}
+
+.show_on_HD {display: block;}
+.show_on_4K, .show_on_MOB {display: none;}
+
+/* SCENE 1 START --------------------------------------------------------------------------- */
+
+/* SCENE 1 START --------------------------------------------------------------------------- */
+
+#gridBG {
+	width: 3702px;
+	height: 3404px;
+	position: absolute;
+	top: -752px;
+	left: -907px;
+	background: url(../images/1-Circle_Background_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+.spinningCircle {
+	width: 2622px;
+	height: 2622px;
+	position: absolute;
+	top: -513px;
+	left: -360px;
+}
+
+#circles1 {
+	background: url(../images/1-Circles_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#circles2 {
+	background: url(../images/1-Circles_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#blueDrawer {
+	border-top: 15px solid #fff;
+	background-color: rgba(0, 113, 197, 0.75);
+	position: absolute;
+	bottom: -400px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+}
+
+#textbox_1_1 {
+	width: 1010px;
+	position: absolute;
+	top: 140px;
+	left: 445px;
+	text-align: center;
+}
+
+#intelBadges_1 {
+	width: 644px;
+	height: 292px;
+	position: absolute;
+	top: -163px;
+	left: 619px;
+	background: url(../images/1-IntelBadges_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_2 {
+	width: 534px;
+	height: 219px;
+	position: absolute;
+	top: -97px;
+	left: 357px;
+	background: url(../images/1-IntelBadges_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_3 {
+	width: 644px;
+	height: 292px;
+	position: absolute;
+	top: -163px;
+	left: 619px;
+	background: url(../images/1-IntelBadges_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#optane_1 {
+	width: 507px;
+	height: 331px;
+	position: absolute;
+	top: -145px;
+	left: 1048px;
+	background: url(../images/1-Optane_HD.png) 50% 50% / contain no-repeat;
+}
+
+#plusIcon {
+	width: 116px;
+	height: 116px;
+	position: absolute;
+	top: -66px;
+	left: 908px;
+	background: url(../images/1-PlusSign_Small_HD.png) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_2 {
+	width: 885px;
+	position: absolute;
+	top: 140px;
+	left: 522px;
+	text-align: center;
+}
+
+#icon_1 {
+	width: 437px;
+	height: 437px;
+	position: absolute;
+	top: 190px;
+	left: 720px;
+	background: url(../images/1-Icon_HD.png) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_3 {
+	width: 840px;
+	position: absolute;
+	top: 605px;
+	left: 530px;
+	text-align: center;
+}
+
+#infiniteBG_1 {
+	width: 3913px;
+	height: 3560px;
+	position: absolute;
+	top: -1214px;
+	left: -907px;
+	background: url(../images/2-Background_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_4 {
+	width: 70%;
+	/* position: absolute; */
+	/* top: 415px;
+	left: 170px; */
+	text-align: right;
+	margin-left: 32px;
+}
+
+.blueBox_glowBorder {
+	border: 20px inset rgba(2, 7, 28);
+	border: 20px inset rgba(2, 7, 28, 0.1);
+	/* -webkit-border-before-width: 128px; */
+	background-color: rgba(2, 7, 28, 0.5);
+	/* opacity: 0.6; */
+	-webkit-box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+	-moz-box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+	-o-box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+	box-shadow: 0px 0px 27px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+	position: absolute;
+}
+
+#blueBox_1 {
+	width: 575px;
+	top: 380px;
+	left: 320px;
+}
+
+.blueBox_glowBorder table {
+	height: 260px;
+}
+
+#computer_1 {
+	width: 1045px;
+	height: 772px;
+	position: absolute;
+	top: 169px;
+	right: 164px;
+	background: url(../images/2-Computer_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#optane_2 {
+	width: 480px;
+	height: 313px;
+	position: absolute;
+	top: 140px;
+	left: 290px;
+	background: url(../images/2-Optane_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#optane_2b {
+	width: 472px;
+	height: 246px;
+	position: absolute;
+	top: 220px;
+	left: 423px;
+	background: url(../images/2-Optane_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#computer_2 {
+	width: 892px;
+	height: 746px;
+	position: absolute;
+	top: 190px;
+	left: 230px;
+	background: url(../images/2-Computer_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#blueBox_2 {
+	width: 575px;
+	top: 350px;
+	right: 309px;
+}
+
+#textbox_1_5, #textbox_1_5b {
+	width: 70%;
+	/* position: absolute; */
+	/* top: 415px;
+	left: 170px; */
+	text-align: center;
+	margin: auto;
+}
+
+#textbox_glow_seperator {
+width:2px;
+background:#2db0ee;
+-webkit-box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+-moz-box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+-o-box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5), inset 0 0 10px #27a6e3;
+	height: 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#optane_3 {
+	width: 371px;
+	height: 207px;
+	margin:auto;
+	background: url(../images/3-Optane_Memory_HD.png) 50% 50% / contain no-repeat;
+	
+}
+
+#optane_3b {
+	width: 403px;
+	height: 214px;
+	/* position: absolute; */
+	background: url(../images/3-Optane_SSD_HD.png) 50% 50% / contain no-repeat;
+	margin:auto;
+}
+
+#blueBox_3 {
+    width: 1400px;
+    min-height: 835px;
+    box-sizing: border-box;
+    xtop: 108px;
+    left: 260px;
+}
+#blueBox_3_container {
+	position: absolute;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+}
+
+
+#fact_tag {
+	width: 586px;
+	height: 367px;
+	position: absolute;
+	top: 28%;
+    left: 45px;
+	background: url(../images/4-FactTag_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#optaneBG {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(../images/3_Background_2_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#optane_4 {
+	width: 820px;
+	height: 466px;
+	position: absolute;
+	top: 325px;
+	left: 185px;
+	background: url(../images/3-Optane_Memory_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+.bracketBlue_L {
+	width: 129px;
+	height: 546px;
+	position: absolute;
+	top: -46px;
+	left: -80px;
+	background: url(../images/3-Bracket_Left_HD.png) 50% 50% / contain no-repeat;
+}
+
+.bracketBlue_R {
+	width: 128px;
+	height: 546px;
+	position: absolute;
+	top: -46px;
+	right: -80px;
+	background: url(../images/3-Bracket_Right_HD.png) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_6 {
+    width: 49%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+	vertical-align: top;
+	padding-left: 40px;
+	padding-right: 40px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+
+#textbox_1_6 td {
+	height: 450px;
+}
+
+#serverRoomBG {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(../images/3_Background_3_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_7 {
+	width: 49%;
+    top: 305px;
+    left: 410px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+/* #textbox_1_7 p {
+	width: 90%;
+	margin: auto;
+} */
+
+#textbox_1_7 p {
+    padding: 0 30px;
+}
+
+#textbox_1_7 td {
+	height: 450px;
+}
+
+#optane_4b {
+	width: 1011px;
+	height: 521px;
+	position: absolute;
+	top: 305px;
+	right: 185px;
+	background: url(../images/3-Optane_SSD_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#blueBox_4 {
+	width: 1400px;
+    min-height: 835px;
+	box-sizing: border-box;
+    top: 108px;
+    left: 260px;
+}
+
+#textbox_1_8 {
+	width: 45%;
+    text-align: left;
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    right: 40px;
+    margin-left: 53%;
+}
+
+
+#textbox_1_8 td {
+	height: 835px;
+}
+
+
+#optane_5 {
+	width: 455px;
+	height: 251px;
+	position: absolute;
+	top: 300px;
+	left: -78px;
+	background: url(../images/4-Optane_Memory_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#optane_5b {
+	width: 483px;
+	height: 244px;
+	position: absolute;
+	top: 300px;
+	right: -78px;
+	background: url(../images/4-Optane_SSD_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_4 {
+	width: 696px;
+	height: 277px;
+	position: absolute;
+	top: 275px;
+	left: 220px;
+	background: url(../images/4-Intel_Badges_HD.png) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_1b {
+	width: 3913px;
+	transform: rotate(268deg);
+	height: 3560px;
+	position: absolute;
+	top: -1152px;
+	left: -991px;
+	background: url(../images/2-Background_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_2 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: -190px;
+	left: -360px;
+	background: url(../images/4-Background_1_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_3 {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: -190px;
+	left: -360px;
+	background: url(../images/4-Background_2_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+.bracketGreen_L {
+	width: 129px;
+	height: 546px;
+	position: absolute;
+	top: -46px;
+	left: -80px;
+	background: url(../images/4-Bracket_Left_HD.png) 50% 50% / contain no-repeat;
+}
+
+.bracketGreen_R {
+	width: 128px;
+	height: 546px;
+	position: absolute;
+	top: -46px;
+	right: -80px;
+	background: url(../images/4-Bracket_Right_HD.png) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_9 {
+	width: 800px;
+	position: absolute;
+	top: 426px;
+	left: 410px;
+	text-align: center;
+	margin: auto;
+	background: rgba(0, 4, 11, 0.65);
+	height: 450px;
+}
+
+#textbox_1_9 p {
+	width: 77%;
+	margin: auto;
+}
+
+#textbox_1_9 td {
+	height: 235px;
+}
+
+#computer3 {
+	width: 1275px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	right: -318px;
+	background: url(../images/4-Computer_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#computer4 {
+	width: 1233px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: -130px;
+	background: url(../images/4-Computer_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_10 {
+	width: 800px;
+	position: absolute;
+	top: 226px;
+	right: 410px;
+	text-align: center;
+	margin: auto;
+	background: rgba(0, 4, 11, 0.65);
+	height: 450px;
+}
+
+#textbox_1_10 p {
+	width: 77%;
+	margin: auto;
+}
+
+#textbox_1_10 td {
+	height: 190px;
+}
+
+#optane_6 {
+	width: 373px;
+	height: 214px;
+	position: absolute;
+	bottom: 5px;
+	left: 207px;
+	background: url(../images/4-Optane_memory_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#optane_6b {
+	width: 475px;
+	height: 247px;
+	position: absolute;
+	bottom: 5px;
+	left: 207px;
+	background: url(../images/4-Optane_SSD_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#spaceCraftBG {
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(../images/5-Background_HD.jpg) 50% 50% / contain no-repeat;
+}
+
+#textBox_container {
+	width: 1250px;
+	position: absolute;
+    top: 178px;
+    left: 348px;
+	text-align: center;
+	margin: auto;
+	background-color: rgba(0, 4, 11, 0.80) !important;
+	height: 750px;
+	background-image: url(../images/5-Corners_Large_2_HD.png);
+}
+
+#textBox_container td {
+	height: 750px;
+}
+
+#textbox_1_11 {
+	width: 57%;
+	margin: auto;
+}
+
+#customerImage_3 {
+	width: 725px;
+	height: 592px;
+	position: absolute;
+	top: 90px;
+	left: -252px;
+	background: url(../images/5-Image_1_HD.png) 50% 50% / contain no-repeat;
+}
+
+#customerImage_2 {
+	width: 725px;
+	height: 592px;
+	position: absolute;
+	top: 90px;
+	left: -252px;
+	background: url(../images/5-Image_2_HD.png) 50% 50% / contain no-repeat;
+}
+
+#customerImage_1 {
+	width: 725px;
+	height: 592px;
+	position: absolute;
+	top: 90px;
+	left: -252px;
+	background: url(../images/5-Image_3_HD.png) 50% 50% / contain no-repeat;
+}
+
+#textbox_1_12 {
+	width: 650px;
+	position: absolute;
+	left: 475px;
+	text-align: left;
+}
+
+#textbox_1_13 {
+	width: 650px;
+	position: absolute;
+	left: 475px;
+	text-align: left;
+}
+
+#textbox_1_14 {
+	width: 650px;
+	position: absolute;
+	left: 475px;
+	text-align: left;
+}
+
+#summarySection {
+	position: absolute;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    align-items: center;
+}
+#summarySection .inner {
+	position: relative;
+	margin:0 auto;
+	width:1185px;
+}
+
+#textbox_1_15 {
+	position: relative;
+	text-align: center;
+}
+
+#textbox_1_15 table {
+	width: 100%;
+}
+
+#textbox_1_15 td {
+	height: 160px;
+}
+
+#table_SKUs {
+	position: relative;
+	text-align: center;
+	border: 20px inset rgba(2, 7, 28);
+	border: 20px inset rgba(2, 7, 28, 0.1);
+	/* -webkit-border-before-width: 128px; */
+	background-color: rgba(2, 7, 28, 0.5);
+	/* opacity: 0.6; */
+	box-shadow: inset 0 0 10px #27a6e3, inset 0 0 10px #27a6e3, inset 0 0 10px #27a6e3;
+}
+
+#table_SKUs table {
+	width: 100%;
+}
+
+#table_SKUs td {
+	border-top: 1px solid #2e3192;
+}
+
+#textbox_1_16 {
+	position: absolute;
+	text-align: center;
+	top: 546px;
+	width: 917px;
+	left: 493px;
+}
+
+.glowBorder_td {
+	box-shadow: inset 0 0 10px #27a6e3, inset 0 0 10px #27a6e3, inset 0 0 10px #27a6e3;
+}
+
+/* SCENE 1 END  --------------------------------------------------------------------------- */
+
+/* QUIZ SCENE START --------------------------------------------------------------------------- */
+
+#quiz_box {
+	position: absolute;
+	/* top: 522px; */
+	width: 100%;
+	text-align: center;
+}
+
+#quizTitleButton {
+	cursor: pointer;
+	padding: 0px 25px;
+	text-align: center;
+	border: 15px inset rgba(2, 7, 28);
+	border: 15px inset rgba(2, 7, 28, 0.1);
+	/* -webkit-border-before-width: 128px; */
+	background-color: rgba(2, 7, 28, 0.8);
+	/* opacity: 0.6; */
+	box-shadow: inset 0 0 10px #27a6e3, inset 0 0 10px #27a6e3, inset 0 0 10px #27a6e3;
+	position: relative;
+	display: inline-block;
+	left: 0px;
+	margin-top: 25px;
+	/* top: 244px; */
+}
+#quizTitleButton p {
+	color:#b5c122;
+}
+
+
+/* QUIZ END  --------------------------------------------------------------------------- */
+
+
+
+/* MEDIA QUERIES--------------------------------------------------------------------------- */
+
+/*FOR 4K--------------------------*/
+
+@media only screen and (min-width: 3500px) {
+
+    .show_on_4K {display: block;}
+    .show_on_HD, .show_on_MOB {display: none;}
+
+	/* Updated Images (4k) */
+	
+	
+#fact_tag {
+	
+	background: url(../images/4-FactTag_4K.jpg) 50% 50% / contain no-repeat;
+}
+
+	#gridBG {
+		background: url(../images/1-Circle_Background_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#circles1 {
+		background: url(../images/1-Circles_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#circles2 {
+		background: url(../images/1-Circles_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#intelBadges_1 {
+		background: url(../images/1-IntelBadges_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#intelBadges_2 {
+		background: url(../images/1-IntelBadges_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#intelBadges_3 {
+		background: url(../images/1-IntelBadges_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_1 {
+		background: url(../images/1-Optane_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#plusIcon {
+		background: url(../images/1-PlusSign_Small_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#icon_1 {
+		background: url(../images/1-Icon_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#infiniteBG_1 {
+		background: url(../images/2-Background_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#computer_1 {
+		background: url(../images/2-Computer_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_2 {
+		background: url(../images/2-Optane_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_2b {
+		background: url(../images/2-Optane_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#computer_2 {
+		background: url(../images/2-Computer_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_3 {
+		background: url(../images/3-Optane_Memory_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_3b {
+		background: url(../images/3-Optane_SSD_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optaneBG {
+		background: url(../images/3_Background_2_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#optane_4 {
+		background: url(../images/3-Optane_Memory_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	.bracketBlue_L {
+		background: url(../images/3-Bracket_Left_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	.bracketBlue_R {
+		background: url(../images/3-Bracket_Right_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#serverRoomBG {
+		background: url(../images/3_Background_3_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#optane_4b {
+		background: url(../images/3-Optane_SSD_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_5 {
+		background: url(../images/4-Optane_Memory_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_5b {
+		background: url(../images/4-Optane_SSD_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#intelBadges_4 {
+		background: url(../images/4-Intel_Badges_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#infiniteBG_1b {
+		background: url(../images/2-Background_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#infiniteBG_2 {
+		background: url(../images/4-Background_1_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#infiniteBG_3 {
+		background: url(../images/4-Background_2_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	.bracketGreen_L {
+		background: url(../images/4-Bracket_Left_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	.bracketGreen_R {
+		background: url(../images/4-Bracket_Right_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#computer3 {
+		background: url(../images/4-Computer_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#computer4 {
+		background: url(../images/4-Computer_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_6 {
+		background: url(../images/4-Optane_memory_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#optane_6b {
+		background: url(../images/4-Optane_SSD_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#spaceCraftBG {
+		background: url(../images/5-Background_4K.jpg) 50% 50% / contain no-repeat;
+	}
+
+	#textBox_container {
+		background-image: url(../images/5-Corners_Large_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#customerImage_1 {
+		background: url(../images/5-Image_1_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#customerImage_2 {
+		background: url(../images/5-Image_2_4K.png) 50% 50% / contain no-repeat;
+	}
+
+	#customerImage_3 {
+		background: url(../images/5-Image_3_4K.png) 50% 50% / contain no-repeat;
+	}
+}
+
+/* FONT SIZE ADJUST-------------------------*/
+
+@media only screen and (min-width: 1025px) and (max-width: 1920px) {
+	
+	body {
+		/* 
+		https://css-tricks.com/snippets/css/fluid-typography/
+		Minimum font-size:16px
+		Maximum font-size:24px
+		Minimum screen width: 1024px
+		Maximum screen width: 1920px		
+		*/
+		font-size: calc(24px - (24 - 16) * ((100vw - 1024px) / (1920 - 1024)));
+	}
+	
+}
+
+/*FOR MOBILE--------------------------*/
+
+@media only screen and (max-width: 1024px) {
+
+    .show_on_MOB {display: block;}
+    .show_on_4K, .show_on_HD {display: none;}
+	#textbox_1_5, #textbox_1_5b {
+		width:92%;
+	}
+	#textbox_1_9 {
+		width:1180px;
+	}
+	#optane_6 {
+		left: 395px;
+	}
+	#optane_6b {
+		left: 295px;
+	}
+	#textbox_1_10 {
+		width:1180px;
+	}
+	#customerImage_1 {
+		width:500px;
+		background-size:contain;
+		top:30px;
+
+	}
+	#customerImage_2 {
+		width:500px;
+		background-size:contain;
+		top:30px;
+
+	}
+		#customerImage_3 {
+		width:500px;
+		background-size:contain;
+		top:30px;
+
+	}
+	#textbox_1_12 {
+	    width: 884px;
+    left: 276px;
+	}
+	#textbox_1_13{
+		width: 884px;
+		left: 276px;
+	}
+	#textbox_1_14{
+	    width: 884px;
+    left: 276px;
+	}
+    
+    #blueBox_3 {
+        width: 1530px;
+        left: 193px;
+    }
+	
+	#summarySection .inner {
+		width:1550px;
+	}
+	
+#textbox_1_16 {
+	top:528px;
+	width:1098px;
+	left:411px;
+}
+#quizTitleButton {
+	left:0px;
+	
+}
+#intelBadges_4 {
+	top: 350px;
+}
+#optane_5 {
+	top: 370px;
+}
+#optane_5b {
+	top: 370px;
+}
+/* Updated Images (MOB) */
+	
+#gridBG {
+	background: url(../images/1-Circle_Background_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#circles1 {
+	background: url(../images/1-Circles_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#circles2 {
+	background: url(../images/1-Circles_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_1 {
+	background: url(../images/1-IntelBadges_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_2 {
+	background: url(../images/1-IntelBadges_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_3 {
+	background: url(../images/1-IntelBadges_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_1 {
+	background: url(../images/1-OptaneMOB.png) 50% 50% / contain no-repeat;
+}
+
+#plusIcon {
+	background: url(../images/1-PlusSign_Small_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#icon_1 {
+	background: url(../images/1-Icon_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_1 {
+	background: url(../images/2-Background_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#computer_1 {
+	background: url(../images/2-Computer_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_2 {
+	background: url(../images/2-Optane_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_2b {
+	background: url(../images/2-Optane_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#computer_2 {
+	background: url(../images/2-Computer_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_3 {
+	background: url(../images/3-Optane_Memory_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_3b {
+	background: url(../images/3-Optane_SSD_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optaneBG {
+	background: url(../images/3_Background_2_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#optane_4 {
+	background: url(../images/3-Optane_Memory_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+.bracketBlue_L {
+	background: url(../images/3-Bracket_Left_MOB.png) 50% 50% / contain no-repeat;
+}
+
+.bracketBlue_R {
+	background: url(../images/3-Bracket_Right_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#serverRoomBG {
+	background: url(../images/3_Background_3_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#optane_4b {
+	background: url(../images/3-Optane_SSD_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_5 {
+	background: url(../images/4-Optane_Memory_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_5b {
+	background: url(../images/4-Optane_SSD_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#intelBadges_4 {
+	background: url(../images/4-Intel_Badges_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_1b {
+	background: url(../images/2-Background_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_2 {
+	background: url(../images/4-Background_1_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#infiniteBG_3 {
+	background: url(../images/4-Background_2_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+.bracketGreen_L {
+	background: url(../images/4-Bracket_Left_MOB.png) 50% 50% / contain no-repeat;
+}
+
+.bracketGreen_R {
+	background: url(../images/4-Bracket_Right_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#computer3 {
+	background: url(../images/4-Computer_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#computer4 {
+	background: url(../images/4-Computer_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_6 {
+	background: url(../images/4-Optane_memory_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#optane_6b {
+	background: url(../images/4-Optane_SSD_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#spaceCraftBG {
+	background: url(../images/5-Background_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+#textBox_container {
+	background: url(../images/5-Corners_Large_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#customerImage_1 {
+	background: url(../images/5-Image_1_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#customerImage_2 {
+	background: url(../images/5-Image_2_MOB.png) 50% 50% / contain no-repeat;
+}
+
+#customerImage_3 {
+	background: url(../images/5-Image_3_MOB.png) 50% 50% / contain no-repeat;
+}
+#fact_tag {
+	
+	background: url(../images/4-FactTag_MOB.jpg) 50% 50% / contain no-repeat;
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+	
+	.blueBox_glowBorder p {margin-top:15px; margin-bottom:15px;}
+	
+	#optane_3, #optane_3b {height:100px;}
+	#textbox_1_6 {padding-right:20px;}
+	
+	#summarySection .inner {width:1600px;}
+	#summarySection p.p24 {font-size:1em;}
+	#summarySection p.p30 {font-size:1.2em;}
+	
+}
+

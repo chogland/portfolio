@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+.loading_no_scrolling {overflow-y: hidden;}
+
+
+/* FONTS/TEXT SIZES AND STYLES USED IN ALL MODULES --------------------------------------------------------------------------- */
+
+sup { 
+    font-size: 65%;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.45em;
+}
+
+/*INTEL CLEAR*/
+
+/* normal */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Rg.eot');
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Rg.eot?#iefix') format('embedded-opentype'),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_Rg.woff') format("woff"),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_Rg.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* bold */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Bd.eot');
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Bd.eot?#iefix') format('embedded-opentype'),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_Bd.woff') format("woff"),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_Bd.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* italic */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_It.eot');
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_It?#iefix') format('embedded-opentype'),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_It.woff') format("woff"),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_It.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* bold italic */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_BdIt.eot');
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_BdIt?#iefix') format('embedded-opentype'),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_BdIt.woff') format("woff"),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_BdIt.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* lighter */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Lt.eot');
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Lt?#iefix') format('embedded-opentype'),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_Lt.woff') format("woff"),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_Lt.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+/* lighter italic */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_LtIt.eot');
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_LtIt?#iefix') format('embedded-opentype'),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_LtIt.woff') format("woff"),  url('fonts/Intel_Clear/Latn/IntelClear_WLat_LtIt.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+.intelClear {
+	font-family: IntelClear, Verdana, Arial;
+}
+
+
+.verdana {
+	font-family: Verdana, Arial ;
+	
+}
+
+
+body {	font-family: IntelClear, Verdana, Arial; }
+
+
+.bold {font-weight: bold;}
+.itl {	font-style: italic;}
+.lte { font-weight:lighter; }
+
+
+.p05 { 	font-size: 5px;}
+.p06 { 	font-size: 6px;}
+.p07 { 	font-size: 7px;}
+.p08 { 	font-size: 8px;}
+.p09 { 	font-size: 9px;}
+.p10 { 	font-size: 10px;}
+.p11 { 	font-size: 11px;}
+.p12 { 	font-size: 12px;}
+.p13 { 	font-size: 13px;}
+.p14 { 	font-size: 14px;}
+.p15 { 	font-size: 15px;}
+.p16 {	font-size: 16px;}
+.p17 {	font-size: 17px;}
+.p18 {	font-size: 18px;}
+.p19 {	font-size: 19px;}
+.p20 {	font-size: 20px;}
+.p21 {	font-size: 21px;}
+.p22 {	font-size: 22px;}
+.p23 {	font-size: 23px;}
+.p24 {	font-size: 24px;}
+.p25 {	font-size: 25px;}
+.p26 {	font-size: 26px;}
+.p27 {	font-size: 27px;}
+.p28 {	font-size: 28px;}
+.p29 {	font-size: 29px;}
+.p30 {	font-size: 30px;}
+.p31 {	font-size: 31px;}
+.p32 {	font-size: 32px;}
+.p33 {	font-size: 33px;}
+.p34 {	font-size: 34px;}
+.p35 {	font-size: 35px;}
+.p36 {	font-size: 36px;}
+.p37 {	font-size: 37px;}
+.p38 {	font-size: 38px;}
+.p39 {	font-size: 39px;}
+.p40 {	font-size: 40px;}
+.p41 {	font-size: 41px;}
+.p42 {	font-size: 42px;}
+.p43 {	font-size: 43px;}
+.p44 {	font-size: 44px;}
+.p45 {	font-size: 45px;}
+.p46 {	font-size: 46px;}
+.p47 {	font-size: 47px;}
+.p48 {	font-size: 48px;}
+.p49 {	font-size: 49px;}
+.p50 {	font-size: 50px;}
+.p51 {	font-size: 51px;}
+.p52 {	font-size: 52px;}
+.p53 {	font-size: 53px;}
+.p54 {	font-size: 54px;}
+.p55 {	font-size: 55px;}
+.p56 {	font-size: 56px;}
+.p57 {	font-size: 57px;}
+.p58 {	font-size: 58px;}
+.p59 {	font-size: 59px;}
+.p60 {	font-size: 60px;}
+.p61 {	font-size: 61px;}
+.p62 {	font-size: 62px;}
+.p63 {	font-size: 63px;}
+.p64 {	font-size: 64px;}
+.p65 {	font-size: 65px;}
+.p66 {	font-size: 66px;}
+.p67 {	font-size: 67px;}
+.p68 {	font-size: 68px;}
+.p69 {	font-size: 69px;}
+.p70 {	font-size: 70px;}
+.p71 {	font-size: 71px;}
+.p72 {	font-size: 72px;}
+.p73 {	font-size: 73px;}
+.p74 {	font-size: 74px;}
+.p75 {	font-size: 75px;}
+.p76 {	font-size: 76px;}
+.p77 {	font-size: 77px;}
+.p78 {	font-size: 78px;}
+.p79 {	font-size: 79px;}
+.p80 {	font-size: 80px;}
+.p81 {	font-size: 81px;}
+.p82 {	font-size: 82px;}
+.p83 {	font-size: 83px;}
+.p84 {	font-size: 84px;}
+.p85 {	font-size: 85px;}
+.p86 {	font-size: 86px;}
+.p87 {	font-size: 87px;}
+.p88 {	font-size: 88px;}
+.p89 {	font-size: 89px;}
+.p90 {	font-size: 90px;}
+.p91 {	font-size: 91px;}
+.p92 {	font-size: 92px;}
+.p93 {	font-size: 93px;}
+.p94 {	font-size: 94px;}
+.p95 {	font-size: 95px;}
+.p96 {	font-size: 96px;}
+.p97 {	font-size: 97px;}
+.p98 {	font-size: 98px;}
+.p99 {	font-size: 99px;}
+.p100 {	font-size: 100px;}
+.p101 {	font-size: 101px;}
+.p102 {	font-size: 102px;}
+.p103 {	font-size: 103px;}
+.p104 {	font-size: 104px;}
+.p105 {	font-size: 105px;}
+.p106 {	font-size: 106px;}
+.p107 {	font-size: 107px;}
+.p108 {	font-size: 108px;}
+.p109 {	font-size: 109px;}
+.p110 {	font-size: 110px;}
+.p111 {	font-size: 111px;}
+.p112 {	font-size: 112px;}
+.p113 {	font-size: 113px;}
+.p114 {	font-size: 114px;}
+.p115 {	font-size: 115px;}
+.p116 {	font-size: 116px;}
+.p117 {	font-size: 117px;}
+.p118 {	font-size: 118px;}
+.p119 {	font-size: 119px;}
+.p120 {	font-size: 120px;}
+.p121 {	font-size: 121px;}
+.p122 {	font-size: 122px;}
+.p123 {	font-size: 123px;}
+.p124 {	font-size: 124px;}
+.p125 {	font-size: 125px;}

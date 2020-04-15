@@ -1,0 +1,23 @@
+==Release notes_Intel Clear Thai Trad==
+
+Date of creation: 2016-02-24
+
+Changes since previous release:
+- This is the first release.
+
+Basic information
+1 Basic family name: Intel Clear Thai Trad
+2 TrueType Version record: 1.000
+3 Supported scripts: Latin, Thai
+4 Number of glyphs: 389
+5 Weights/Styles: Light, Regular, Bold
+6 Usage: Text
+7 
+Non-Latin characters sets, except Chinese, include a basic set of Latin characters as standard.  Korean, Thai Traditional, Thai Modern, Devanagari, Hebrew, Arabic and Japanese are missing the following glyphs shown below; they can be accessed by downloading the Latin font set.
+¢ £ ¥ ¦ © « ¬ ¯ ° ± ² ³ ´ μ ¶ · ¸ ¹ º » ¼ ½ ¾ ‑ ‒ ‚ ‛ „ ‟ † ‡ • … ‸ ‹› ⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ⁿ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₡ ℗ ℠ ™ Ω ℮ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞  ↔ ↕ ↨ ⇐ ⇒ ⇔∋ − ∕ ∘ ∙ ∡ ≃ ≙ ≲ ≳
+
+
+Technology
+1 Files formats: The files have been delivered in the TrueType-based OpenType format, for use in all major Operating Systems.
+2 Embedding settings: Everything is allowed (installable mode); subsetting is allowed.
+3 Hinting information: All glyphs are manually hinted for optimized rasterization in Microsoft ClearType or for other LCD devices.

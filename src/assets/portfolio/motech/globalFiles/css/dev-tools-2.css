@@ -1,0 +1,308 @@
+/* Used for 201804 IREP courses and newer */
+
+/* Language changer drop down list  ---------------------------------------------------------- */
+#click_to_change {
+    background: #333;
+    right: 2em;
+    position: fixed;
+    top: 1.5em;
+    z-index: 1000;
+    opacity: 0.25;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, .25);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .25);
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    padding: 0em 0.6em;
+    font-size: 16px;
+
+}
+#click_to_change:hover {
+    opacity: 1;
+}
+#click_to_change form {
+    margin: 0.7em 0;
+    width: 5em;
+}
+
+#click_to_change form select {
+    font-size: 1em;
+}
+
+#click_to_change form select option {
+    font-size: 16px;
+}
+
+#click_to_refresh_lang_css {
+    cursor: pointer;
+    margin-left: 0.3em;
+    font-size: 1.6em;
+    margin-top: .2em;
+}
+
+#form_expand_click {
+    cursor: pointer;
+    margin-left: 0.3em;
+    font-size: 1.8em;
+}
+
+#doubleTextBtn2 {
+    cursor: pointer;
+    margin-left: 0.3em;
+    font-size: 1.4em;
+    margin-top: 0.3em;
+}
+
+.module_course #doubleTextBtn2 {display: none;} /* Modules have their own text doubler button in the slider */
+
+
+.slider_active_btn {
+    background-position: center bottom !important;
+}
+
+
+
+/* Slider Styles --------------------------------------------------------------------------- */
+
+#slider_wrapper {
+    position: absolute;
+    background: #333333;
+    padding: 1em;
+    width: 50em;
+    z-index: 1000;
+    opacity: 0.25;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,.25);
+    bottom: 1.5em;
+    left: calc(50% - 25em);
+    color: #fff;
+    font-size: 16px;
+}
+
+#slider_wrapper.goUp {
+    top: 1.5em;
+    bottom: unset;
+}
+
+#slider { width: 100%; height:2px; margin: 0 0 1em 0;	}
+
+#slider_bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slider_button_wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#slider_left div, #slider_center div {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.6em;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+#slider_left div:hover, #slider_center div:hover  {background-position:bottom center;}
+
+#reverseBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_reverse.png);
+}
+
+#playBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_play.png);
+}
+
+#pauseBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_pause.png);
+}
+
+#parkTimelineBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_module_size.png);
+}
+
+#coverScreenBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_cover.png);
+    display: none;
+}
+
+#stopAll {
+    background-image:url(../../globalFiles/images/control_images/control_icon_stopTL.png);
+}
+
+#gridlinesBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_grid.png);
+}
+#swapPosBtn {
+    background-image:url(../../globalFiles/images/control_images/control_icon_arrow.png);
+}
+#slider_wrapper.goUp #swapPosBtn {
+    transform: rotate(180deg)
+}
+#moveDivBtn {
+    background-image:url(../../globalFiles/images/control_images/move_icon.png);
+}
+#doubleTextBtn {
+    background-image:url(../../globalFiles/images/control_images/double_icon.png);
+}
+
+
+#gridlines::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0px;
+    background-color: black;
+    z-index: 1000;
+}
+
+#gridlines::after {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 1px);
+    background-color: black;
+    z-index: 1000;
+}
+
+#slider_right p {
+    line-height: 130%;
+}
+
+#timeScale_wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+#timeScale_wrapper p {
+    margin: 0 0.15em;
+    cursor: pointer;
+}
+
+#timeScale_wrapper p:first-child {
+    cursor: default;
+}
+
+
+
+/* As long as the p tag does not have the .nohover class, then change its text color on hover */
+#timeScale_wrapper p:not(.nohover):hover {color: #cc0000;}
+
+.slider_active_speed_btn {color:#cc0000 !important;}
+
+#timer_display  {
+    display: flex;
+    margin-left: 1.2em;
+}
+
+#timer_display p {
+    margin: 0;
+}
+
+input#go_time {
+    font-size: 1em;
+    width: 2em;
+}
+
+input#GO {
+    font-size: 0.8em;
+    margin: 0 1.1em 0 0.2em;
+}
+
+.mt_draggable_hover {
+    outline: 1px solid black;
+}
+
+
+/* Slider Styles from jQuery UI ---------------------------------------- */
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #eee;
+    color: #333;
+}
+.ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    font-weight: bold;
+    color: #1c94c4;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1em;
+    height: 1em;
+    cursor: default;
+}
+
+
+/* Media Queries --------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 2500px) {
+    #slider_wrapper, #click_to_change {font-size: 18px;}
+}
+
+@media only screen and (min-width: 3500px) {
+    #slider_wrapper, #click_to_change {font-size: 26px;}
+}
+
+@media only screen and (max-width: 1024px) {
+    #slider_wrapper {
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    #slider_bot {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .slider_button_wrapper {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+        margin-top: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    #slider_wrapper {
+        font-size: 13px;
+        padding: 0.5em 1em;
+    }
+}

@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+/* Used for 201804 IREP courses and newer */
+
+
+/* MISC STYLES USED FOR ALL COURSES  --------------------------------------------------------------------------- */
+.loading_no_scrolling {overflow-y: hidden !important;}
+
+/* Hides the nav menu when user is in the old mobile app */
+.user_on_mobile_app #nav_wrapper {
+	display: none !important;
+}
+
+/* All Courses */
+#course_wrapper {
+    width:1px;
+    min-width: 100%;
+    height:1px;
+    min-height: 100%;
+    position:absolute;
+}
+
+/* Everything Except Modules */
+html:not(.module_course) #course_wrapper {
+    overflow-y:auto;
+    overflow-x:hidden;
+    -webkit-overflow-scrolling: touch;
+}
+@media only screen and (max-width: 1024px) {
+    html:not(.module_course) #course_wrapper {
+        text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
+/* Modules */
+.module_course #course_wrapper {
+    overflow:hidden;
+}
+@media only screen and (max-width: 1024px) {
+    .module_course #course_wrapper {
+        text-size-adjust: auto;
+        -webkit-text-size-adjust: auto;
+    }
+}
+
+
+/* FONTS/TEXT SIZES AND STYLES USED IN ALL MODULES --------------------------------------------------------------------------- */
+
+sup { 
+    font-size: 65%;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.45em;
+	line-height: normal;
+	white-space: nowrap;
+}
+
+/*INTEL CLEAR*/
+
+/* normal */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Rg.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* bold */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Bd.woff') format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* italic */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_It.woff') format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* bold italic */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_BdIt.woff') format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* lighter */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_Lt.woff') format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+
+/* lighter italic */
+@font-face {
+	font-family: 'IntelClear';
+	src: url('fonts/Intel_Clear/Latn/IntelClear_WLat_LtIt.woff') format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+
+.intelClear {
+	font-family: IntelClear, Arial, sans-serif;
+}
+
+.verdana {
+	font-family: Verdana, Arial;
+}
+
+
+body {	font-family: IntelClear, Arial, sans-serif; }
+
+
+.bold {font-weight: bold;}
+.itl {	font-style: italic;}
+.lte { font-weight: lighter; }
+
+.notClearPro .intelClearPro {
+    font-weight: bold;
+}
+
+
+.p05 { font-size: 0.3125em; }
+.p06 { font-size: 0.375em; }
+.p07 { font-size: 0.4375em; }
+.p08 { font-size: 0.5em; }
+.p09 { font-size: 0.5625em; }
+.p10 { font-size: 0.625em; }
+.p11 { font-size: 0.6875em; }
+.p12 { font-size: 0.75em; }
+.p13 { font-size: 0.8125em; }
+.p14 { font-size: 0.875em; }
+.p15 { font-size: 0.9375em; }
+.p16 { font-size: 1em; }
+.p17 { font-size: 1.0625em; }
+.p18 { font-size: 1.125em; }
+.p19 { font-size: 1.1875em; }
+.p20 { font-size: 1.25em; }
+.p21 { font-size: 1.3125em; }
+.p22 { font-size: 1.375em; }
+.p23 { font-size: 1.4375em; }
+.p24 { font-size: 1.5em; }
+.p25 { font-size: 1.5625em; }
+.p26 { font-size: 1.625em; }
+.p27 { font-size: 1.6875em; }
+.p28 { font-size: 1.75em; }
+.p29 { font-size: 1.8125em; }
+.p30 { font-size: 1.875em; }
+.p31 { font-size: 1.9375em; }
+.p32 { font-size: 2em; }
+.p33 { font-size: 2.0625em; }
+.p34 { font-size: 2.125em; }
+.p35 { font-size: 2.1875em; }
+.p36 { font-size: 2.25em; }
+.p37 { font-size: 2.3125em; }
+.p38 { font-size: 2.375em; }
+.p39 { font-size: 2.4375em; }
+.p40 { font-size: 2.5em; }
+.p41 { font-size: 2.5625em; }
+.p42 { font-size: 2.625em; }
+.p43 { font-size: 2.6875em; }
+.p44 { font-size: 2.75em; }
+.p45 { font-size: 2.8125em; }
+.p46 { font-size: 2.875em; }
+.p47 { font-size: 2.9375em; }
+.p48 { font-size: 3em; }
+.p49 { font-size: 3.0625em; }
+.p50 { font-size: 3.125em; }
+.p51 { font-size: 3.1875em; }
+.p52 { font-size: 3.25em; }
+.p53 { font-size: 3.3125em; }
+.p54 { font-size: 3.375em; }
+.p55 { font-size: 3.4375em; }
+.p56 { font-size: 3.5em; }
+.p57 { font-size: 3.5625em; }
+.p58 { font-size: 3.625em; }
+.p59 { font-size: 3.6875em; }
+.p60 { font-size: 3.75em; }
+.p61 { font-size: 3.8125em; }
+.p62 { font-size: 3.875em; }
+.p63 { font-size: 3.9375em; }
+.p64 { font-size: 4em; }
+.p65 { font-size: 4.0625em; }
+.p66 { font-size: 4.125em; }
+.p67 { font-size: 4.1875em; }
+.p68 { font-size: 4.25em; }
+.p69 { font-size: 4.3125em; }
+.p70 { font-size: 4.375em; }
+.p71 { font-size: 4.4375em; }
+.p72 { font-size: 4.5em; }
+.p73 { font-size: 4.5625em; }
+.p74 { font-size: 4.625em; }
+.p75 { font-size: 4.6875em; }
+.p76 { font-size: 4.75em; }
+.p77 { font-size: 4.8125em; }
+.p78 { font-size: 4.875em; }
+.p79 { font-size: 4.9375em; }
+.p80 { font-size: 5em; }
+.p81 { font-size: 5.0625em; }
+.p82 { font-size: 5.125em; }
+.p83 { font-size: 5.1875em; }
+.p84 { font-size: 5.25em; }
+.p85 { font-size: 5.3125em; }
+.p86 { font-size: 5.375em; }
+.p87 { font-size: 5.4375em; }
+.p88 { font-size: 5.5em; }
+.p89 { font-size: 5.5625em; }
+.p90 { font-size: 5.625em; }
+.p91 { font-size: 5.6875em; }
+.p92 { font-size: 5.75em; }
+.p93 { font-size: 5.8125em; }
+.p94 { font-size: 5.875em; }
+.p95 { font-size: 5.9375em; }
+.p96 { font-size: 6em; }
+.p97 { font-size: 6.0625em; }
+.p98 { font-size: 6.125em; }
+.p99 { font-size: 6.1875em; }
+.p100 { font-size: 6.25em; }
+.p101 { font-size: 6.3125em; }
+.p102 { font-size: 6.375em; }
+.p103 { font-size: 6.4375em; }
+.p104 { font-size: 6.5em; }
+.p105 { font-size: 6.5625em; }
+.p106 { font-size: 6.625em; }
+.p107 { font-size: 6.6875em; }
+.p108 { font-size: 6.75em; }
+.p109 { font-size: 6.8125em; }
+.p110 { font-size: 6.875em; }
+.p111 { font-size: 6.9375em; }
+.p112 { font-size: 7em; }
+.p113 { font-size: 7.0625em; }
+.p114 { font-size: 7.125em; }
+.p115 { font-size: 7.1875em; }
+.p116 { font-size: 7.25em; }
+.p117 { font-size: 7.3125em; }
+.p118 { font-size: 7.375em; }
+.p119 { font-size: 7.4375em; }
+.p120 { font-size: 7.5em; }
+.p121 { font-size: 7.5625em; }
+.p122 { font-size: 7.625em; }
+.p123 { font-size: 7.6875em; }
+.p124 { font-size: 7.75em; }
+.p125 { font-size: 7.8125em; }

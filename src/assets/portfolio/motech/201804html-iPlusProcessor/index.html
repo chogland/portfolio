@@ -1,0 +1,527 @@
+﻿<!DOCTYPE html>
+<html class="module_course">
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title xdata-localeid="title">Intel Course</title>
+
+    <link rel="preload" href="../globalFiles/images/loading.gif" as="image">
+    <link id="full_screen_view" type="text/css" rel="stylesheet" href="css/default.css">
+    <link type="text/css" rel="stylesheet" href="../globalFiles/css/global-default-1.css">
+    <link type="text/css" rel="stylesheet" href="../globalFiles/css/quiz-2.css">
+    <link id="Update-Main-CSS" type="text/css" rel="stylesheet" href="css/module.css">
+    <link type="text/css" rel="stylesheet" href="../globalFiles/css/dev-tools-2.css">
+
+</head>
+
+<body>
+
+<div id="course_wrapper">
+
+
+<div id="preloader" style="background-color: #0061a6; width: 100%; height: 100%; position: fixed; z-index:600;">
+     <img id="loading_gif" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" width="68" height="68" src="../globalFiles/images/loading.gif">
+
+    <div id="loading_bar_full_wrapper">
+        <div id="loading_bar_full_inner"></div>
+        <div id="loading_bar_full-progress" class="progress white p18">0%</div>
+    </div>
+</div>
+
+
+<div id="main_wrapper">
+
+			<!--NAV AREA-->
+			<div id="nav_wrapper">
+				<div id="nav_icon_wrapper">
+					<div id="nav_menu_burger">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="100%" height="100%" viewBox="0 0 108 108" enable-background="new 0 0 108 108" xml:space="preserve">
+							<line id="burger_bot" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="18" y1="73.7" x2="88.4" y2="73.7"/>
+							<line id="burger_mid" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="18" y1="53.9" x2="88.4" y2="53.9"/>
+							<line id="burger_top" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-miterlimit="10" x1="18" y1="34" x2="88.4" y2="34"/>
+						</svg>
+					</div>
+					<div id="nav_menu_X">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="100%" height="100%" viewBox="0 0 130.3 130.5" enable-background="new 0 0 130.3 130.5" xml:space="preserve">
+							<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" d="M29.7,32L99,101.3 M99,32l-69.3,69.3"/>
+						</svg>
+					</div>
+				</div>
+				<ul id="nav_menu">
+					<li class="nav-current">
+						<p class="p20" data-universalid="153582">Intro</p>
+					</li>
+					<li>
+						<p class="p20" data-universalid="119906">Quiz</p>
+					</li>
+					<li class="nav_bottom">
+					  <p id="nav_legal" class="p11" data-universalid="119907">Legal Disclaimers</p>
+					  <p id="nav_bottom_quit" class="p11 course_quit" data-universalid="119913">Quit</p>
+					</li>
+				</ul>
+			</div>
+           
+            <!-- NAV END -------------------------------------------------------------------------------- -->
+            
+            <!-- OPENER SCREEN START -------------------------------------------------------------------------------- -->
+
+            <div id="opener_screen" class="scene">
+            	<div id="opener_screen_inner">
+            		<div id="opener_screen_content">
+						<table width="100%" height="100%" border="0">
+							<tbody>
+								<tr>
+									<td>
+
+										
+                                    <!--Title text-->
+                                    <p class="p45 white" data-localeid="200901">Introducing Intel® Core™ i+ Processor Family</p>
+
+                                    <!--short description text-->
+                                    <p class="p18 white" data-localeid="200902">Learn how the 8th Gen Intel® Core™ i+ processor family is delivering enhanced performance
+                                        that’s optimized for customers!</p>
+
+                                    <!--Legal text-->
+                                    <p class="p25 legaldisclaimers" data-universalid="119907">Legal Disclaimers</p>
+
+                                    <div id="legal_wrapper_full">
+                                        <div id="legal_wrapper_full_inner">
+
+                                            <p class="" data-localeid="200959">Materials are Intel Confidential. For Retail Sales Professional training only.
+                                                Do not repurpose or reuse without permission.</p>
+                                            <p class="" data-localeid="200960">© Intel Corporation 2018. Intel, the Intel logo, Intel Inside, Intel Retail Edge
+                                                Program, Intel Core, and Intel Optane are trademarks of Intel Corporation
+                                                or its subsidiaries in the U.S. and/or other countries.</p>
+                                            <p data-universalid="119927">* Other names and brands may be claimed as the property of others.</p>
+                                            <p class="" data-localeid="200961">1 Intel technologies may require enabled hardware, specific software, or services
+                                                activation. Performance varies depending on system configuration. Check with
+                                                your system manufacturer or retailer or learn more at intel.com.</p>
+                                            <p class="" data-localeid="200962">2 Gaming workloads were tested with same configuration, except using a discrete
+                                                graphics card (NVIDIA* (EVGA) GTX 1080) with and without 16 GB Intel® Optane™
+                                                Memory Module.</p>
+                                            <p>
+                                                 <span class="" data-localeid="200963">3</span><span data-universalid="199407"> Benchmark results were obtained prior to implementation of recent software
+                                                patches and firmware updates intended to address exploits referred to as
+                                                "Spectre" and "Meltdown".  Implementation of these updates may make these
+                                                results inapplicable to your device or system.</span></p>
+                                           
+
+
+                                        </div>
+                                    </div>
+
+
+										<!--Arrows used on title/legal screen-->
+										<div class="close_button_container">
+											<div id="opener_next">
+												<svg enable-background="new 0 0 256 256" version="1.1" fill="#FFF" viewBox="0 0 256 256" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M38.399,76.8c1.637,0,3.274,0.625,4.524,1.875l85.075,85.076l85.075-85.076c2.5-2.5,6.55-2.5,9.05,0s2.5,6.55,0,9.05  l-89.6,89.601c-2.5,2.5-6.551,2.5-9.051,0l-89.6-89.601c-2.5-2.5-2.5-6.55,0-9.05C35.124,77.425,36.762,76.8,38.399,76.8z"/></svg>
+											</div>
+											<div id="legal_close_full">
+												<svg enable-background="new 0 0 256 256" version="1.1" fill="#FFF" viewBox="0 0 256 256"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M38.399,76.8c1.637,0,3.274,0.625,4.524,1.875l85.075,85.076l85.075-85.076c2.5-2.5,6.55-2.5,9.05,0s2.5,6.55,0,9.05  l-89.6,89.601c-2.5,2.5-6.551,2.5-9.051,0l-89.6-89.601c-2.5-2.5-2.5-6.55,0-9.05C35.124,77.425,36.762,76.8,38.399,76.8z"/></svg>
+											</div>
+										</div>
+
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+            </div>            
+            
+
+            <!-- OPENER SCREEN END -------------------------------------------------------------------------------- -->
+
+            <!-- SCENE 1 START ------------------------------------------------------------------------------ -->
+
+            <div id="scene_1_1" class="scene">
+                <div id="intro_overview">
+                    <div id="gridBG"></div>
+
+                    <div class="spinningCircle" id="circles1"></div>
+                    <div class="spinningCircle" id="circles2"></div>
+
+                    <div id="blueDrawer">
+                        <div id="intelBadges_1"></div>
+                        <div id="intelBadges_2"></div>
+                        <div id="intelBadges_3"></div>
+                        <div id="plusIcon"></div>
+                        <div id="optane_1"></div>
+                        <div id="textbox_1_1">
+                            <p class="p30 bold" data-localeid="200905">Introducing the Intel® Core™ i+ Processor Family</p>
+                            <p class="p16" data-localeid="200906">Brace yourself for something special: The Intel® Core™ i+ processor family is coming, which means customers are going to have an exciting new way to enjoy premium performance that’s optimized to work the way they do!<sup>1</sup></p>
+                        </div>
+                        <div id="textbox_1_2">
+                            <p class="p30 bold" data-localeid="200907">Overview</p>
+                            <p class="p16" data-localeid="200908">Intel® Core™ i+ processors combine the performance of select 8th Gen Intel® Core™ i5, i7,
+                                and i9 processors with the responsiveness of Intel® Optane™ technology!</p>
+                        </div>
+                    </div>
+                    <div id="icon_1"></div>
+                    <div id="textbox_1_3">
+                        <p class="p16" data-localeid="200909">8th Gen Intel® Core™ processors deliver uncompromising performance. And now, with Intel® Optane™
+                            technology built in, 8th Gen Intel® Core™ i+ processors can deliver an amazingly responsive
+                            experience that’s optimized based on how customers use their PCs.
+                            <sup>1</sup>
+                        </p>
+                    </div>
+                </div>
+                <div id="infiniteSection">
+                    <div id="infiniteBG_1"></div>
+                    <div class="blueBox_glowBorder" id="blueBox_1">
+                        <div id="textbox_1_4">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p class="p16" data-localeid="200910">Note that customers can still purchase separate, boxed Intel® Optane™ SSDs or
+                                            memory modules to add to select desktops.</p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div id="computer_1">
+                        <div id="optane_2"></div>
+                    </div>
+                    <div class="blueBox_glowBorder" id="blueBox_2">
+                        <div id="textbox_1_5">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p class="p16" data-localeid="200911">With Intel® Core™ i+ processors, they’ll be able to get all the advantages of
+                                            Intel® Optane™ technology integrated into a variety of the latest desktops
+                                            and notebooks!</p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div id="computer_2"> </div>
+					
+                    <div id="blueBox_3_container">
+						<div class="blueBox_glowBorder" id="blueBox_3">
+							<div id="textbox_1_5b">
+								<table>
+									<tr>
+										<td>
+											<p class="p36 bold" data-localeid="200912">Intel® Optane™ Technology</p>
+											<p class="p16" data-localeid="200913">As a reminder, there are currently two types of Intel® Optane™ technology, which deliver different benefits. The Intel® Core™ i5+/i7+/i9+ platform combines either Intel® Optane™ memory or Intel® Optane™ SSDs with select 8th Gen Intel® Core™ processors.</p>
+										</td>
+									</tr>
+								</table>
+
+							</div>
+
+
+							<div id="textbox_1_6">
+									<div id="optane_3"></div>
+									<p data-localeid="202906" class="p22 bold">Memory</p>
+									<p data-localeid="200914">Intel® Optane™ memory is a radically innovative technology that makes computers work more efficiently. It’s a smart, adaptable system accelerator that—when paired with a SATA-based storage device—provides greater performance while simultaneously personalizing the programs and commands customers use most, so they can launch faster, play smoother, and work with ease.<sup>2,3</sup></p>
+
+								</div>
+								<div id="textbox_glow_seperator">
+
+								</div>
+								<div id="textbox_1_7">
+										<div id="optane_3b"></div>
+										<p  data-localeid="202907" class="p22 bold">Storage</p>
+										<p data-localeid="200915">Intel® Optane™ SSDs are designed for the most storage-demanding workloads, delivering exceptionally high random read/write performance and low latency for professional users, creators, and enthusiasts!<sup>1</sup></p>
+
+									</div>
+						</div>
+
+						<div class="blueBox_glowBorder" id="blueBox_4">
+							<div id="textbox_1_8">
+								<table>
+									<tr>
+										<td>
+											<p class="p32 bold" data-localeid="202908"> Details May Appear on Fact Tags</p>
+											<p class="p16" data-localeid="202909">  Some fact tags will show whether a system has Intel® Optane™ memory or, less commonly, Intel® Optane™ SSDs. Note that:</p>
+											<ul>
+												<li class="p16" data-localeid="202910">If present, Intel® Optane™ memory will be listed on the memory line.</li>
+												<li class="p16" data-localeid="202911">The “Total Memory” icon will show the total of Intel® Optane™ memory plus DRAM.</li>
+											</ul>
+											<p class="p16" data-localeid="202912"> If the fact tag doesn’t show total system memory in this way, you can still speak to the benefits that Intel® Optane™ technology provides!</p>
+
+										</td>
+									</tr>
+								</table>
+
+							</div>
+							<div id="fact_tag"></div>
+
+						</div>
+					</div>
+				</div>
+               
+                <div id="customerTypesSection">
+                    <div id="spaceCraftBG"></div>
+                    <div id="textBox_container">
+                        <div id="textbox_1_11">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p class="p24 bold spaceGreen" data-localeid="200919">Customer Types</p>
+                                        <p class="p16" data-localeid="200920">Let’s look at how Intel® Core™ i+ processors with Intel® Optane™ memory can benefit
+                                            customers who are interested in gaming, content creation, and productivity.</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="customerImage_1"></div>
+                        <div id="textbox_1_12">
+                            <table>
+                                <tr>
+                                    <td>
+                                            <p class="p24 bold spaceGreen" data-localeid="200933">Productivity-minded customers</p>
+                                            <p class="p16" data-localeid="200934">Intel® Core™ i+ processors with Intel® Optane™ memory will deliver the performance
+                                                and responsiveness to be productive, including the ability to:
+                                                <sup>1</sup>
+                                            </p>
+                                            <ul>
+                                                <li class="p16" data-localeid="200935">Boot up, launch applications, and perform compute-intensive tasks quickly,
+                                                    smoothly, and easily</li>
+                                                <li class="p16" data-localeid="200936">Accelerate the most frequently performed tasks</li>
+                                                <li class="p16" data-localeid="200937">Multitask with ease, even when working with large files and demanding applications</li>
+                                            </ul>
+
+                                       
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="customerImage_2"></div>
+                        <div id="textbox_1_13">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <p class="p24 bold spaceGreen" data-localeid="200927">Content creators</p>
+                                        <p class="p16" data-localeid="200928">Intel® Core™ i+ processors with Intel® Optane™ memory will enable content creators
+                                            to:
+                                            <sup>1</sup>
+                                        </p>
+                                        <ul>
+                                        
+                                            <li class="p16" data-localeid="200930">Enjoy automatic acceleration of their most frequently used content creation
+                                                applications
+                                            </li>
+                                            <li class="p16" data-localeid="200931">Launch professional-grade content creation apps at SSD-like speeds—and still
+                                                have lots of storage capacity</li>
+                                            <li class="p16" data-localeid="200932">Rapidly create, edit, share, store, and access even huge digital libraries</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div id="customerImage_3"></div>
+                        <div id="textbox_1_14">
+                            <table>
+                                <tr>
+                                    <td>
+                                            <p class="p24 bold spaceGreen" data-localeid="200921">Gamers</p>
+                                            <p class="p16" data-localeid="200922">With Intel® Core™ i+ processors with Intel® Optane™ memory, gamers will be able
+                                                to:
+                                                <sup>1</sup>
+                                            </p>
+                                            <ul>
+                                                <li class="p16" ><span class="bold" data-localeid="200923">Install:</span> <span data-localeid="202913">All games can be installed on a single, large-capacity hard drive and play at SSD-like speeds.</span> </li>
+                                                <li class="p16"><span class="bold" data-localeid="200924">Launch:</span> <span data-localeid="202914">Automatic acceleration speeds the launch of customers’ most frequently played games.</span> </li>
+                                                <li class="p16"><span class="bold" data-localeid="200925">Level up:</span> <span data-localeid="202915">Gamers can load levels at incredible speeds!</span> </li>
+                                                <li class="p16"><span class="bold" data-localeid="200926">Play:</span> <span data-localeid="202916">Even at high settings, customers can enjoy smooth gameplay.</span></li>
+                                            </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id="summarySection">
+                   	<div class="inner">
+                    <div id="textbox_1_15">
+                        <table>
+                            <tr>
+                                <td>
+                                    <p class="p30 bold" data-localeid="200938">Intel® Core™ i+ Processor SKUs</p>
+                                    <p class="p16" data-localeid="200939">Here are full lists of the new Intel® Core™ i+ processor desktop and mobile SKUs
+                                        that will be available soon:</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="table_SKUs">
+                        <table cellspacing="0">
+                            <tr>
+                                <td colspan="2" class="glowBorder_td">
+                                    <p class="spaceYellow p24 bold" data-localeid="200940">Desktop SKUs</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200941">8th Gen Intel® Core™ i7+ 8700K processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200946">8th Gen Intel® Core™ i5+ 8600T processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200942">8th Gen Intel® Core™ i7+ 8700 processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200947">8th Gen Intel® Core™ i5+ 8500 processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200943">8th Gen Intel® Core™ i7+ 8700T processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200948">8th Gen Intel® Core™ i5+ 8500T processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200944">8th Gen Intel® Core™ i5+ 8600K processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200949">8th Gen Intel® Core™ i5+ 8400 processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200945">8th Gen Intel® Core™ i5+ 8600 processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200950">8th Gen Intel® Core™ i5+ 8400T processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="glowBorder_td">
+                                    <p class="spaceYellow p24 bold" data-localeid="200951">Mobile SKUs</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200952">8th Gen Intel® Core™ i9+ 8950HK processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200955">8th Gen Intel® Core™ i5+ 8400H processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200953">8th Gen Intel® Core™ i7+ 8850H processor</p>
+                                </td>
+                                <td>
+                                    <p class="p16" data-localeid="200956">8th Gen Intel® Core™ i5+ 8300H processor</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p class="p16" data-localeid="200954">8th Gen Intel® Core™ i7+ 8750H processor</p>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- SCENE 1 END -------------------------------------------------------------------------------- -->
+
+            <!-- QUIZ SECTION START -------------------------------------------------------------------------------- -->
+
+            <div id="scene_quiz" class="scene">
+                <div id="summaryBox">
+                    <div id="textbox_1_16">
+                       <p class="p32" data-localeid="200957">Summary</p>
+                       <p class="p16" data-localeid="200958">Keep an eye out for desktops and notebooks powered by 8th Gen Intel® Core™ i+ processors. By
+                           combining the exceptional performance of 8th Gen Intel® Core™ i5, i7, and i9 processors with
+                           the responsiveness of Intel® Optane™ technology, this new processor family is going to give
+                           customers unbelievable performance that’s optimized to work the way they do!
+                           <sup>1</sup>
+                       </p>
+                       <div id="quiz_box">
+                        <div id="quizTitleButton" class="startQuiz">
+                            <p class="p25" data-universalid="119928">Take Quiz</p>
+                        </div>
+                    </div>
+                   </div> 
+                  
+               </div>
+            </div>
+
+            <!-- QUIZ SECTION END -------------------------------------------------------------------------------- -->
+
+
+			<div id="next_arrow" class="nav_arrow_style">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 79">
+				  <circle id="next_arrow_circle" fill="#075498" stroke="#FFF" stroke-width="2" cx="41.8" cy="41" r="35"/>
+				  <path id="next_arrow_outline" fill="#FFF" d="M34.7 63.4c-.7-.8-.5-1.8.1-2.4l4.1-4.1L53.8 42S35 23.2 34.6 22.7c-.4-.5-.7-1.6.2-2.3.8-.8 1.9-.4 2.3 0l20.3 20.3c.8.8.8 1.7 0 2.5-1 1-19.4 19.5-20.1 20.2-.8.6-1.8.7-2.6 0z"/>
+				</svg>
+			</div>
+
+			<div id="back_arrow" class="nav_arrow_style">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 79">
+				  <circle id="back_arrow_circle" fill="#075498" stroke="#FFF" stroke-width="2" cx="41.8" cy="41" r="35"/>
+				  <path id="back_arrow_outline" fill="#FFFFFF" d="M49.5,20.4c0.7,0.8,0.5,1.8-0.1,2.4l-4.1,4.1L30.4,41.8c0,0,18.8,18.8,19.2,19.3s0.7,1.6-0.2,2.3c-0.8,0.8-1.9,0.4-2.3,0L26.8,43.1c-0.8-0.8-0.8-1.7,0-2.5c1-1,19.4-19.5,20.1-20.2C47.7,19.8,48.7,19.7,49.5,20.4z"/>
+				</svg>
+			</div>
+
+
+<!-- TIMELINE CONTROLS  -------------------------------------------------------------------------------- -->
+
+    <div id="dev_tool_wrapper"></div>
+</div>
+
+	</div>
+
+
+
+
+   
+    <script type="text/javascript" src="../globalFiles/js/jquery/jquery-3.1.1.min.js"></script>
+    <!-- <script type="text/javascript" src="../utilities/motech.js"></script> -->
+    <!-- script for jQuery UI slider component -->
+    <script src="../globalFiles/js/jquery/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="../globalFiles/js/pxloader/PxLoader.js"></script>
+    <script type="text/javascript" src="../globalFiles/js/pxloader/PxLoaderImage.js"></script>
+    <!-- <script type="text/javascript" src="../globalFiles/js/pxloader/PxLoaderAudio.js"></script>  -->
+    <script type="text/javascript" src="../globalFiles/js/greensock/TweenMax-1.20.4.min.js"></script>
+
+    <!--Greensock Files-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/MorphSVGPlugin-0.8.11.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/Draggable-0.16.2.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/DrawSVGPlugin-0.1.5.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/ThrowPropsPlugin-0.11.1.min.js"></script>-->
+
+    <!--CustomWiggle and CustomBounce require CustomEase-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/CustomEase-0.2.2.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/CustomWiggle-0.2.1.min.js"></script>-->
+    <!--<script type="text/javascript" src="../globalFiles/js/greensock/CustomBounce-0.2.1.min.js"></script>-->
+
+    <script type="text/javascript" src="../globalFiles/js/global-config-1.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
+    <!-- <script type="text/javascript" src="../globalFiles/js/api-2.js"></script> -->
+    <script type="text/javascript" src="../globalFiles/js/quiz-2.js"></script>
+    <!-- <script type="text/javascript" src="../globalFiles/js/text-replace-3.js"></script> -->
+    <script type="text/javascript" src="../globalFiles/js/dev-tools-3.js"></script>
+    <script type="text/javascript" src="js/nav-bar.js"></script>
+    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="js/timeline.js"></script>
+    <script type="text/javascript" src="js/click-functions.js"></script>
+    <script type="text/javascript" src="js/loader-images.js"></script>
+
+
+</body>
+</html>

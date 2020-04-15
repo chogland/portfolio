@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Used for languages that support the Intel Clear Pro font */
+
+@font-face {
+    font-family: IntelClearPro;
+    src: url("fonts/Intel_Clear_Pro/IntelClearProUpperLower.woff") format("woff"); /* this font has the lowercase characters merged in with the original IntelClearPro_W_Bd font */
+    font-weight: bold;
+    font-style: normal;
+}
+
+.intelClearPro {
+    font-family: IntelClearPro, IntelClear, Arial;
+}
+
+.intelClearPro, p.intelClearPro, li.intelClearPro, span.intelClearPro, .intelClearPro p, .intelClearPro li, .intelClearPro span {line-height: 100%;}
+
+/* Misc */
+#quiz-body .results-wrapper .quiz-message-1 {
+    font-size: 3.5em;
+}
+
+
+/* Increase font sizes */
+.intelClearPro.p05 { font-size: 1.2375em; }
+.intelClearPro.p06 { font-size: 1.3em; }
+.intelClearPro.p07 { font-size: 1.3625em; }
+.intelClearPro.p08 { font-size: 1.425em; }
+.intelClearPro.p09 { font-size: 1.4875em; }
+.intelClearPro.p10 { font-size: 1.55em; }
+.intelClearPro.p11 { font-size: 1.6125em; }
+.intelClearPro.p12 { font-size: 1.675em; }
+.intelClearPro.p13 { font-size: 1.7375em; }
+.intelClearPro.p14 { font-size: 1.8em; }
+.intelClearPro.p15 { font-size: 1.8625em; }
+.intelClearPro.p16 { font-size: 1.925em; }
+.intelClearPro.p17 { font-size: 1.9875em; }
+.intelClearPro.p18 { font-size: 2.05em; }
+.intelClearPro.p19 { font-size: 2.1125em; }
+.intelClearPro.p20 { font-size: 2.175em; }
+.intelClearPro.p21 { font-size: 2.2375em; }
+.intelClearPro.p22 { font-size: 2.3em; }
+.intelClearPro.p23 { font-size: 2.3625em; }
+.intelClearPro.p24 { font-size: 2.425em; }
+.intelClearPro.p25 { font-size: 2.4875em; }
+.intelClearPro.p26 { font-size: 2.55em; }
+.intelClearPro.p27 { font-size: 2.6125em; }
+.intelClearPro.p28 { font-size: 2.675em; }
+.intelClearPro.p29 { font-size: 2.7375em; }
+.intelClearPro.p30 { font-size: 2.8em; }
+.intelClearPro.p31 { font-size: 2.8625em; }
+.intelClearPro.p32 { font-size: 2.925em; }
+.intelClearPro.p33 { font-size: 2.9875em; }
+.intelClearPro.p34 { font-size: 3.05em; }
+.intelClearPro.p35 { font-size: 3.1125em; }
+.intelClearPro.p36 { font-size: 3.175em; }
+.intelClearPro.p37 { font-size: 3.2375em; }
+.intelClearPro.p38 { font-size: 3.3em; }
+.intelClearPro.p39 { font-size: 3.3625em; }
+.intelClearPro.p40 { font-size: 3.425em; }
+.intelClearPro.p41 { font-size: 3.4875em; }
+.intelClearPro.p42 { font-size: 3.55em; }
+.intelClearPro.p43 { font-size: 3.6125em; }
+.intelClearPro.p44 { font-size: 3.675em; }
+.intelClearPro.p45 { font-size: 3.7375em; }
+.intelClearPro.p46 { font-size: 3.8em; }
+.intelClearPro.p47 { font-size: 3.8625em; }
+.intelClearPro.p48 { font-size: 3.925em; }
+.intelClearPro.p49 { font-size: 3.9875em; }
+.intelClearPro.p50 { font-size: 4.05em; }
+.intelClearPro.p51 { font-size: 4.1125em; }
+.intelClearPro.p52 { font-size: 4.175em; }
+.intelClearPro.p53 { font-size: 4.2375em; }
+.intelClearPro.p54 { font-size: 4.3em; }
+.intelClearPro.p55 { font-size: 4.3625em; }
+.intelClearPro.p56 { font-size: 4.425em; }
+.intelClearPro.p57 { font-size: 4.4875em; }
+.intelClearPro.p58 { font-size: 4.55em; }
+.intelClearPro.p59 { font-size: 4.6125em; }
+.intelClearPro.p60 { font-size: 4.675em; }
+.intelClearPro.p61 { font-size: 4.7375em; }
+.intelClearPro.p62 { font-size: 4.8em; }
+.intelClearPro.p63 { font-size: 4.8625em; }
+.intelClearPro.p64 { font-size: 4.925em; }
+.intelClearPro.p65 { font-size: 4.9875em; }
+.intelClearPro.p66 { font-size: 5.05em; }
+.intelClearPro.p67 { font-size: 5.1125em; }
+.intelClearPro.p68 { font-size: 5.175em; }
+.intelClearPro.p69 { font-size: 5.2375em; }
+.intelClearPro.p70 { font-size: 5.3em; }
+.intelClearPro.p71 { font-size: 5.3625em; }
+.intelClearPro.p72 { font-size: 5.425em; }
+.intelClearPro.p73 { font-size: 5.4875em; }
+.intelClearPro.p74 { font-size: 5.55em; }
+.intelClearPro.p75 { font-size: 5.6125em; }
+.intelClearPro.p76 { font-size: 5.675em; }
+.intelClearPro.p77 { font-size: 5.7375em; }
+.intelClearPro.p78 { font-size: 5.8em; }
+.intelClearPro.p79 { font-size: 5.8625em; }
+.intelClearPro.p80 { font-size: 5.925em; }
+.intelClearPro.p81 { font-size: 5.9875em; }
+.intelClearPro.p82 { font-size: 6.05em; }
+.intelClearPro.p83 { font-size: 6.1125em; }
+.intelClearPro.p84 { font-size: 6.175em; }
+.intelClearPro.p85 { font-size: 6.2375em; }
+.intelClearPro.p86 { font-size: 6.3em; }
+.intelClearPro.p87 { font-size: 6.3625em; }
+.intelClearPro.p88 { font-size: 6.425em; }
+.intelClearPro.p89 { font-size: 6.4875em; }
+.intelClearPro.p90 { font-size: 6.55em; }
+.intelClearPro.p91 { font-size: 6.6125em; }
+.intelClearPro.p92 { font-size: 6.675em; }
+.intelClearPro.p93 { font-size: 6.7375em; }
+.intelClearPro.p94 { font-size: 6.8em; }
+.intelClearPro.p95 { font-size: 6.8625em; }
+.intelClearPro.p96 { font-size: 6.925em; }
+.intelClearPro.p97 { font-size: 6.9875em; }
+.intelClearPro.p98 { font-size: 7.05em; }
+.intelClearPro.p99 { font-size: 7.1125em; }
+.intelClearPro.p100 { font-size: 7.175em; }
+.intelClearPro.p101 { font-size: 7.2375em; }
+.intelClearPro.p102 { font-size: 7.3em; }
+.intelClearPro.p103 { font-size: 7.3625em; }
+.intelClearPro.p104 { font-size: 7.425em; }
+.intelClearPro.p105 { font-size: 7.4875em; }
+.intelClearPro.p106 { font-size: 7.55em; }
+.intelClearPro.p107 { font-size: 7.6125em; }
+.intelClearPro.p108 { font-size: 7.675em; }
+.intelClearPro.p109 { font-size: 7.7375em; }
+.intelClearPro.p110 { font-size: 7.8em; }
+.intelClearPro.p111 { font-size: 7.8625em; }
+.intelClearPro.p112 { font-size: 7.925em; }
+.intelClearPro.p113 { font-size: 7.9875em; }
+.intelClearPro.p114 { font-size: 8.05em; }
+.intelClearPro.p115 { font-size: 8.1125em; }
+.intelClearPro.p116 { font-size: 8.175em; }
+.intelClearPro.p117 { font-size: 8.2375em; }
+.intelClearPro.p118 { font-size: 8.3em; }
+.intelClearPro.p119 { font-size: 8.3625em; }
+.intelClearPro.p120 { font-size: 8.425em; }
+.intelClearPro.p121 { font-size: 8.4875em; }
+.intelClearPro.p122 { font-size: 8.55em; }
+.intelClearPro.p123 { font-size: 8.6125em; }
+.intelClearPro.p124 { font-size: 8.675em; }
+.intelClearPro.p125 { font-size: 8.7375em; }

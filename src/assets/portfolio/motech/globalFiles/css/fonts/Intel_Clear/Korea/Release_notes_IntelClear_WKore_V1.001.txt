@@ -1,0 +1,22 @@
+==Release notes_Intel Clear WKore==
+
+Date of creation: 2016-03-22
+
+Changes since version 1.000:
+- Deleted SM symbol from character set.
+
+Basic information
+1 Font name: Intel Clear Kore
+2 TrueType Version record: 1.001
+3 Regional package: KSX 1005
+4 Supported scripts: Latin, Greek, Cyrillic, Korean
+5 Number of glyphs: 12733
+6 Weights/Styles: Light, Regular, Bold
+7 Usage: Text and Display
+8 Non-Latin characters sets, except Chinese, include a basic set of Latin characters as standard.  Korean, Thai Traditional, Thai Modern, Devanagari, Hebrew, Arabic and Japanese are missing the following glyphs shown below; they can be accessed by downloading the Latin font set.
+¢ £ ¥ ¦ © « ¬ ¯ ° ± ² ³ ´ μ ¶ · ¸ ¹ º » ¼ ½ ¾ ‑ ‒ ‚ ‛ „ ‟ † ‡ • … ‸ ‹› ⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ⁿ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₡ ℗ ℠ ™ Ω ℮ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞  ↔ ↕ ↨ ⇐ ⇒ ⇔∋ − ∕ ∘ ∙ ∡ ≃ ≙ ≲ ≳
+
+Technology
+1 File formats: The files have been delivered in the following formats: TrueType-based OpenType; EOT; WOFF; WOFF2.
+2 Embedding settings: Everything is allowed (installable mode), allow subsetting.
+3 Hinting information: No hinting.

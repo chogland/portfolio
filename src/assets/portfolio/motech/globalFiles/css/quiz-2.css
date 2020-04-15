@@ -1,0 +1,274 @@
+/* Used for 201804 IREP courses and newer */
+
+/* Reload button that appears in preloader or quiz error screen */
+.motech_error_text .error_reload {
+    cursor: pointer;
+    background-color: #ededed;
+    color: #333333;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.motech_error_text .error_reload:hover {
+    background-color: #CCCCCC;
+}
+
+.motech_error_text .error_reload_icon {
+    display: inline-block;
+    vertical-align: middle;
+    xmargin-right: 10px;
+}
+
+.motech_error_text .error_reload p {
+    font-size: 25px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End reload button styles */
+
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table
+}
+.clearfix:after {
+    clear: both
+}
+
+a {
+    text-decoration: none
+}
+
+#quiz-body {
+    font-weight: 100;
+    font-size: 16px;
+    width: 100%;
+    z-index: 101;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    -webkit-text-size-adjust: 100%;
+}
+
+#quiz-body > div:first-child {
+    margin: auto;
+    width: 750px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-text-size-adjust: 100%;
+}
+
+#quiz-body>div .question {
+    width: 100%;
+    color: #fff;
+    font-size: 1.125em;
+    padding: 1.5em 0;
+}
+
+#quiz-body>div .question .answer, #quiz-body>div .question .answerSelected {
+    color: #333;
+    background: #ccc;
+    width: 100%;
+    min-height: 3em;
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+    margin: 1em 0;
+    box-sizing: border-box;
+}
+#quiz-body>div .question .answerSelected {
+    color: #fff;
+    background: #00adef;
+}
+#quiz-body>div .question .answer:hover {
+    background: #999
+}
+#quiz-body>div .results {
+    width: 100%;
+    height: 100%;
+    color: #666;
+    padding: 1.5em 0;
+}
+#quiz-body>div .results h2 {
+    color: #fff;
+    margin: 1em 0 0.3em 0;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+#quiz-body>div .results>div {
+    font-size: 1.125em;
+    color: #333;
+    background: #ccc;
+    width: 100%;
+    min-height: 3em;
+    padding: 0.5em 0.7em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+}
+#quiz-body>div .results .correct {
+    border-left: 10px solid #5d8721
+}
+#quiz-body>div .results .incorrect {
+    border-left: 10px solid #e1261d
+}
+#quiz-body>div .results .actions {
+    padding: 0;
+    margin: 25px 0 0 0;
+    width: 100%;
+    background: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#quiz-body>div .results .actions a {
+    cursor: pointer;
+    background: url(../images/quiz_images/recycle.png) no-repeat center left;
+    background-color: #ededed;
+    color: #333333;
+    font-size: 1em;
+    padding: 1em 1em 1em 75px;
+    cursor: pointer;
+    min-width: 20%;
+    margin: 0.5em 1em;    
+}
+#quiz-body>div .results .actions a+a {
+    background: url(../images/quiz_images/x.png) no-repeat center left;
+    background-color: #ededed;
+}
+#quiz-body>div .results .actions a:hover {
+    background-color: #CCCCCC;
+}
+
+#quiz-body>div .results .actions:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.quiz-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 100;
+    background: #0061a6;
+}
+#quiz-body>div .feedback {
+    position: absolute;
+    padding-top: 45px;
+    color: #666;
+    background: #e6e6e6;
+    text-align: center;
+    width: 450px;
+    height: 200px;
+    left: 120px;
+    top: 50px;
+    display: none
+}
+#quiz-body>div .feedback .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 11px;
+    height: 28px;
+    xxfont-size: 22px;
+    color: #fff;
+    background: #666;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer
+}
+#quiz-body>div .feedback p {
+    color: #666;
+    background: #e6e6e6;
+    text-align: center;
+    xxfont-size: 22px;
+    line-height: normal;
+    padding: 0 15px 15px 15px;
+    margin: 0
+}
+#nextQuestion {
+    background: url(../images/quiz_images/rightarrow.png) right center no-repeat #ededed !important;
+    float: right !important;
+    padding: 15px 95px 15px 55px !important;
+    text-align: right;
+    width: auto !important;
+}
+#nextQuestion:hover {
+    background-color: #cccccc !important;
+}
+.quiz-top-text { background: none !important; text-align: center; min-height: 0px !important;}
+.quiz-top-text h3 { color:#fff;}
+.removeRetakeQuizBtn a.stopQuiz {display: none;}
+
+
+/* 2K and 4K Quiz Styles */
+@media only screen and (min-width: 3500px) {
+    #quiz-body {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+	#quiz-body {
+        font-size: 24px;
+    }	
+	#quiz-body > div:first-child {
+        width: 40%;
+    }    
+}
+
+/* Mobile Quiz Styles */
+@media only screen and (max-width: 1024px) {
+    
+    #quiz-body {
+		font-weight: 500;
+	}
+    
+    #quiz-body > div:first-child {
+        width: 100%;
+    }
+
+    #quiz-body>div .question {
+        width: 100%;
+        padding: 1.5em;
+        box-sizing: border-box;
+    }
+    
+    #quiz-body>div .question .answer:hover {
+        background: #ccc;
+    }
+    
+    #quiz-body>div .question .answer, #quiz-body>div .question .answerSelected {
+        margin: 0.7em 0;
+    }
+    
+    #quiz-body>div .results {
+        padding: 1.5em;
+        box-sizing: border-box;
+    }
+
+    /*Needs to be tested when a multi-answer questions comes up*/
+    /*
+    #nextQuestion {
+        background: url(../images/quiz_images/rightarrow.png) right center no-repeat #ededed !important;
+        float: right !important;
+        padding: 22px 95px 5px 55px !important;
+        text-align: right;
+        width: auto !important;
+    }
+    #nextQuestion:hover {
+        background-color: #cccccc !important;
+    }
+	.quiz-top-text { width: 100% !important; padding: 0px !important;}
+    */
+    
+}
+

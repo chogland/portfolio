@@ -1,0 +1,36 @@
+/*INTEL CLEAR*/
+
+/* normal */
+@font-face {
+	font-family: 'IntelClear-chinese';
+	src: url('fonts/Intel_Clear/Chinese/IntelClear_Hans_W_Rg.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* bold */
+@font-face {
+	font-family: 'IntelClear-chinese';
+	src: url('fonts/Intel_Clear/Chinese/IntelClear_Hans_W_Bd.woff') format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* lighter */
+@font-face {
+	font-family: 'IntelClear-chinese';
+	src: url('fonts/Intel_Clear/Chinese/IntelClear_Hans_W_Lt.woff') format("woff");format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+
+.intelClear {
+	font-family: IntelClear-chinese, IntelClear, Arial, sans-serif;
+}
+
+#quiz-body {
+   font-family: IntelClear-chinese, IntelClear, Arial, sans-serif;  
+}
+
+body { font-family: IntelClear-chinese, IntelClear, Arial, sans-serif;  }

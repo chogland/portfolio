@@ -1,0 +1,833 @@
+/* ----------------------------------
+        INFOGRAPHIC STYLES
+---------------------------------- */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	margin-left: 15px;
+}
+
+body {
+	overflow-x: hidden;
+	background: url(../../globalFiles/images/crosshatch_gray.png) center top;
+}
+
+p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	line-height: 130%;
+}
+
+a {
+	color: #00ffff;
+    text-decoration: underline;
+}
+a:visited {
+	color: #00ffff;
+    text-decoration: underline;
+}
+.blue {
+	color: #0071c5;
+}
+
+.gray {
+	color: #555555;
+}
+
+.yellow {
+	color: #feda00;
+}
+
+.green {
+	color: #74a72d;
+}
+
+.dk_gray {
+	color: #333333;
+}
+
+.orange {
+	color: #ffa300;
+}
+
+.dk_orange {
+	color: #fb4b02;
+}
+
+.white {
+	color: #fff;
+}
+
+.purple {
+	color: #180153;
+}
+
+.lt_blue {
+	color: #00adef;
+}
+
+.dk_blue {
+	color: #003b70;
+}
+
+.black {
+	color: #000000;
+}
+
+#main_wrapper {
+	width: 100%;
+	max-width: 1920px;
+	height: auto;
+	background: #0171c5;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.45);
+}
+
+#cover_it_all {
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+/*PUT THIS CLASS TO CENTER ALIGN THE INFOGRAPH.  CAN PUT IT ON EACH SECTION DIV OR ADD IT TO THE #MAIN_WRAPPER */
+
+.wrapper {
+	width: 1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+/*Quiz stuff*/
+
+#textbox_quiz {
+	padding-right: 50px;
+	position: absolute;
+	top: 505px;
+	left: 712px;
+	background: url(../images/downArrow.png) no-repeat center right;
+	cursor: pointer;
+}
+
+#quiz_box {
+	width: 100%;
+	/* height: 205px; */
+	Xbackground: url(../images/blue-line-pattern-reapeat-x-y.png);
+	text-align: center;
+	/* cursor:pointer; */
+}
+
+#quiz_box p.p60 {
+	padding-top: 45px;
+}
+
+#quiz_box .wrapper {
+	padding-bottom: 25px;
+	xbackground: url(../../globalFiles/images/quiz_images/arrow_quiz.png) bottom center no-repeat
+}
+
+#quiz_bar {
+	position: absolute;
+	top: 475px;
+	left: 625px;
+}
+
+/* ----------------------------------
+            CUSTOM CODE
+---------------------------------- */
+#quiz_box a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
+.purpleBG {
+	background:rgba(16,21,69,0.6);
+	padding: 20px;
+
+}
+.adjWidth {
+	width:735px;
+	margin: auto;
+}
+.startQuiz {
+	background-color: rgba(0, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 10px;
+	padding: 10px 20px;
+	cursor:pointer;
+	border: 2px solid #fff;
+	display:none;
+}
+#header {
+	width: 100%;
+	min-height: 813px;
+	background: url(../images/1-BG.jpg) center bottom no-repeat #000819;
+}
+
+#box_1 {
+	width: 100%;
+	min-height: 253px;
+	background: url(../images/2-BG-fade040207.jpg) center top no-repeat #040207;
+}
+
+#box_1 table {
+	min-height: 253px;
+}
+
+#box_2 {
+	width: 100%;
+	min-height: 884px;
+	position: relative;
+	background: url(../images/3-BG.jpg) center bottom no-repeat #000819;
+}
+
+#box_2 .wrapper {
+	height: 884px;
+}
+
+#quiz_box {
+	width: 100%;
+	min-height: 434px;
+	background: url(../images/4-BG-fade-hex-030611.jpg) center top no-repeat #030611;
+
+	
+	  
+}
+
+.gamingRig {
+	width: 583px;
+	height: 773px;
+	position: absolute;
+	top: 34px;
+	right:0px;
+	background: url(../images/1-device.png) no-repeat
+}
+
+.gamingRig_copy {
+	width: 529px;
+	position: relative;
+	top: 150px;
+	left: 100px;
+	/* height: 812px; */
+}
+
+table {
+	height: 100%;
+}
+
+.gamingRig_line {
+	width: 529px;
+	height: 24px;
+	background: url(../images/glow-lines.png) no-repeat;
+	margin-left: -8px;
+}
+
+h2 {
+	font-weight: 100;
+}
+
+
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+.paddingTop {
+	padding-top: 25px;
+}
+
+/* PC Parts */
+
+.pcItem {
+	cursor: pointer;
+}
+
+#pc_case {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+	top: 154px;
+	left: 160px;
+	background: url(../images/3-PC-Shell.png) no-repeat;
+}
+
+#pc_mobo {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 152px;
+	left: 0px;
+	background: url(../images/3-100-motherboard.png) no-repeat;
+}
+
+#pc_chip {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 305px;
+	left: 0px;
+	background: url(../images/3-100-cpu.png) no-repeat;
+}
+
+#pc_graphics {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 432px;
+	left: 0px;
+	background: url(../images/3-100-graphics.png) no-repeat;
+}
+
+#pc_ram {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 549px;
+	left: 0px;
+	background: url(../images/3-100-ram.png) no-repeat;
+}
+
+#pc_os {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 673px;
+	left: 0px;
+	background: url(../images/3-100-OS.png) no-repeat;
+}
+
+#pc_mouse {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 105px;
+	right: 0px;
+	background: url(../images/3-100-peripherals.png) no-repeat;
+}
+
+#pc_cooler {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 242px;
+	right: 0px;
+	background: url(../images/3-100-cooling.png) no-repeat;
+}
+
+#pc_psu {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 359px;
+	right: 0px;
+	background: url(../images/3-100-power.png) no-repeat;
+}
+
+#pc_hdd {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 480px;
+	right: 0px;
+	background: url(../images/3-100-Storage.png) no-repeat;
+}
+
+#pc_optane {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 604px;
+	right: 0px;
+	background: url(../images/3-100-optane.png) no-repeat;
+}
+
+#pc_caseCover {
+	width: 157px;
+	height: 152px;
+	position: absolute;
+	top: 705px;
+	right: 0px;
+	background: url(../images/3-100-case.png) no-repeat;
+}
+
+#pc_screwdriver {
+	width: 354px;
+	height: 233px;
+	position: absolute;
+	top: -75px;
+	left: -341px;
+	background: url(../images/3-ScrewDriver.png) no-repeat;
+}
+
+#pc_fidget {
+	width: 237px;
+	height: 237px;
+	position: absolute;
+	top: 714px;
+	left: -303px;
+	opacity: 0.5;
+	cursor: pointer;
+	background: url(../images/3-fidgetspinner.png) no-repeat;
+}
+
+#pc_thumbDrive {
+	width: 148px;
+	height: 168px;
+	position: absolute;
+	top: 100px;
+	left: -416px;
+	opacity: 0.5;
+	background: url(../images/3-usb.png) no-repeat;
+}
+
+#pc_tablet {
+	width: 292px;
+	height: 487px;
+	position: absolute;
+	bottom: -40px;
+	right: -460px;
+	opacity: 0.5;
+	background: url(../images/3-tablet.png) no-repeat;
+}
+
+#pc_vr {
+	width: 316px;
+	height: 337px;
+	position: absolute;
+	top: -60px;
+	right: -400px;
+	opacity: 0.5;
+	background: url(../images/3-vr.png) no-repeat;
+}
+
+#pc_usbCable {
+	width: 160px;
+	height: 178px;
+	position: absolute;
+	top: 222px;
+	right: -460px;
+	opacity: 0.5;
+	background: url(../images/3-usbcable.png) no-repeat;
+}
+
+#pc_controller {
+	width: 346px;
+	height: 294px;
+	position: absolute;
+	top: 362px;
+	opacity: 0.5;
+	left: -459px;
+	background: url(../images/3-Controller.png) no-repeat;
+}
+
+.pcComplete {}
+
+#pc_complete_mobo {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+	top: 152px;
+	left: 160px;
+	background: url(../images/complete-motherboard.png) no-repeat;
+}
+
+#pc_complete_cpu {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+	top: 152px;
+	left: 160px;
+	background: url(../images/complete-cpu.png) no-repeat;
+}
+
+#pc_complete_gpu {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+	top: 152px;
+	left: 160px;
+	background: url(../images/complete-video.png) no-repeat;
+}
+
+#pc_complete_ram {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+	top: 152px;
+	left: 160px;
+	background: url(../images/complete-ram.png) no-repeat;
+}
+
+#pc_complete_cooler {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+    right: 152px;
+    top: 155px;
+	background: url(../images/complete-cooling.png) no-repeat;
+}
+
+#pc_complete_psu {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+    right: 152px;
+    top: 155px;
+	background: url(../images/PowerSupply.png) no-repeat;
+}
+
+#pc_complete_hdd {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+    right: 152px;
+    top: 155px;
+	background: url(../images/complete-hdd.png) no-repeat;
+}
+
+#pc_complete_optane {
+	width: 589px;
+	height: 546px;
+	position: absolute;
+	right: 211px;
+    top: 201px;
+	background: url(../images/complete-optane.png) no-repeat;
+}
+
+#pc_complete_case {
+	width: 688px;
+	height: 639px;
+	position: absolute;
+    right: 150px;
+    top: 150px;
+	background: url(../images/complete-screen.png) no-repeat;
+}
+
+/* END PC Parts */
+
+/* popup */
+
+.popup_PC {
+	border-width: 6px;
+	border-color: rgb(0, 255, 255);
+	border-style: solid;
+	position: absolute;
+	left: 125px;
+	top: 230px;
+	width: 752px;
+	height: 428px;
+	z-index: 317;
+	background-color: rgba(0, 59, 112, 0.8);
+	box-shadow: 0px 0px 40px -5px #00ffff, 0px 0px 40px -5px #00ffff inset;
+}
+
+.popup_img {
+	position: absolute;
+	left: -130px;
+	top: 36px;
+}
+
+#mobo_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#cpu_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#gpu_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#ram_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#os_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#mouse_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#cooler_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#psu_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#hdd_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#optane_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+#cpucover_dimmer {
+	min-height: 884px;
+    /* background-color: rgba(0, 59, 112,0.8); */
+    width: 1756px;
+    top: 0px;
+    left: -381px;
+    position: absolute;
+	background: url(../images/pop-up-behind-box-to-dim-case.png) no-repeat;
+}
+
+.popup_close {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+    top: 10px;
+    right: 10px;
+	cursor: pointer;
+	background: url(../images/pop-up-x-button.png) no-repeat;
+}
+
+.screw {
+	width: 54px;
+	height: 53px;
+	position: absolute;
+
+	background: url(../images/screw.png) no-repeat;
+}
+
+.washer {
+	width: 53px;
+	height: 53px;
+	position: absolute;
+	background: url(../images/bolt.png) no-repeat;
+}
+#screw1 {
+    top: -5px;
+    left: -100px;
+}
+#screw2 {
+    top: 10px;
+    transform: rotate(118deg);
+    left: -11px;
+}
+#screw3 {
+    bottom: -13px;
+    right: -163px;
+    transform: rotate(117deg);
+}
+#screw4 {
+    bottom: 37px;
+    left: 286px;
+}
+#screw5 {
+    bottom: 52px;
+    transform: rotate(118deg);
+    left: 363px;
+}
+#screw6 {
+    bottom: 24px;
+	right: -75px;
+    transform: rotate(34deg);
+}
+#screw7 {
+	bottom: 69px;
+    right: -146px;
+}
+#washer1 {
+    top: 41px;
+    left: -44px;
+}
+#washer2 {
+    top: 54px;
+    left: 45px;
+}
+#washer3 {
+    bottom: 47px;
+    right: -211px;
+}
+#quiz_box table {
+	min-height:434px;
+}
+.popup_text {
+    position: absolute;
+    padding-left: 175px;
+    padding-right: 25px;
+    min-height: 428px;
+	box-sizing: border-box;
+	width:100%;
+}
+.popup_text td {
+	height:428px;
+}
+
+
+.popup_next {
+	width: 62px;
+	height: 44px;
+	position: absolute;
+    bottom: 10px;
+    right: 20px;
+	cursor:pointer;
+	background: url(../images/fwd-multi-arrow.png) no-repeat;
+}
+
+.popup_back {
+	width: 63px;
+	height: 48px;
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	cursor:pointer;
+	background: url(../images/back-multi-arrow.png) no-repeat;
+}
+#popup_mobo_cpu {
+	width: 97px;
+	height: 93px;
+	position: absolute;
+    top: 39%;
+    left: -31%;
+	background: url(../images/pop-up-box-motherboard-cpu.png) no-repeat;
+}
+#popup_mobo_plus {
+	width: 38px;
+	height: 39px;
+	position: absolute;
+	top: 45%;
+    left: -43%;
+	background: url(../images/pop-up-box-motherboard-plus.png) no-repeat;
+}
+#mobo_text_2 {
+	margin-left: 324px;
+    width: auto;
+    padding: 0 20px 0 0;
+}
+#popup_cpu_chip {
+    top: 70px;
+}
+#popup_cpu_X {
+	width: 471px;
+	height: 233px;
+	position: absolute;
+    top: 79px;
+	left: -288px;
+	background: url(../images/pop-up-CPU-2.png) no-repeat;
+}
+#popup_cpu_eighth {
+	width: 552px;
+	height: 252px;
+	position: absolute;
+	top: 19%;
+    z-index: -1;
+	left: -305px;
+	background: url(../images/pop-up-CPU-3.png) no-repeat;
+}
+
+
+#popup_gpu .popup_img {
+    left: -210px;
+}
+
+#popup_ram .popup_img {
+	left: -173px;
+    top: 74px;
+}
+#popup_ram .popup_text {
+    padding-left: 231px;
+}
+#popup_os .popup_img {
+    top: 76px;
+}
+#popup_psu .popup_img {
+	left: -170px;
+    top: 97px;
+}
+#popup_optane .popup_img {
+	left: -186px;
+    top: 92px;
+}
+#popup_optane .popup_text {
+padding-left:200px;
+}
+
+#popup_mouse .popup_img {
+	left: -73px;
+}
+#popup_mouse_img_2 {
+	left: -227px !important;
+    top: 130px !important;
+}
+
+#popup_cpucover .popup_text {
+	padding-left: 206px;
+}

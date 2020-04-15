@@ -1,0 +1,23 @@
+==Release notes_Intel Clear WHant==
+
+Date of creation: 2016-04-18
+
+Changes since version 1.001:
+- Made the Regular weight lighter
+- Minor design adjustments
+
+Basic information
+1 Font name: Intel Clear WHant
+2 TrueType Version record: 1.002
+3 Regional package: Hant
+4 Supported scripts: Big5, HKSCS
+5 Number of glyphs: 26206
+6 Weights/Styles: Light, Regular, Bold
+7 Usage: Text and Display
+8 Non-Latin characters sets, except Chinese, include a basic set of Latin characters as standard.  Korean, Thai Traditional, Thai Modern, Devanagari, Hebrew, Arabic and Japanese are missing the following glyphs shown below; they can be accessed by downloading the Latin font set.
+¢ £ ¥ ¦ © « ¬ ¯ ° ± ² ³ ´ μ ¶ · ¸ ¹ º » ¼ ½ ¾ ‑ ‒ ‚ ‛ „ ‟ † ‡ • … ‸ ‹› ⁰ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾ ⁿ ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎ ₡ ℗ ℠ ™ Ω ℮ ⅓ ⅔ ⅛ ⅜ ⅝ ⅞  ↔ ↕ ↨ ⇐ ⇒ ⇔∋ − ∕ ∘ ∙ ∡ ≃ ≙ ≲ ≳
+
+Technology
+1 File formats: The files have been delivered in the following formats: TrueType-based OpenType; EOT; WOFF; WOFF2.
+2 Embedding settings: Everything is allowed (installable mode), allow subsetting.
+3 Hinting information: No hinting.

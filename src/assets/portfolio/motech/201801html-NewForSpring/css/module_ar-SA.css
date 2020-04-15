@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, ul, td, #quiz-body {direction: rtl;}
+
+ul#nav_menu {direction: ltr;}
+#nav_menu li {text-align:right;}
+
+#moduleBackground ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 35px;
+	padding-right: 15px;
+}

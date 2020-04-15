@@ -1,0 +1,39 @@
+/*INTEL CLEAR JAPANESE*/
+
+/* normal */
+@font-face {
+	font-family: 'IntelClear-jpn';
+	src: url('fonts/Intel_Clear/Japan/IntelClear_WJpn_Rg.woff') format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* bold */
+@font-face {
+	font-family: 'IntelClear-jpn';
+	src: url('fonts/Intel_Clear/Japan/IntelClear_WJpn_Bd.woff') format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* lighter */
+@font-face {
+	font-family: 'IntelClear-jpn';
+	src: url('fonts/Intel_Clear/Japan/IntelClear_WJpn_Lt.woff') format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+
+.intelClear {
+	font-family: IntelClear-jpn, IntelClear, Arial, sans-serif;
+}
+
+#quiz-body {
+    font-family: IntelClear-jpn, IntelClear, Arial, sans-serif;  
+}
+
+body {
+    font-family: IntelClear-jpn, IntelClear, Arial, sans-serif;
+}
+
+
