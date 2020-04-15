@@ -26,6 +26,15 @@ header {
   // -o-transition: .7s all;
   user-select: none;
 
+  .mobile-menu-adjust {
+
+    @media (max-width: 366px) { 
+      float: right;
+    position: fixed;
+    right: 0;
+    }
+    
+  }
     &.small {
     position:fixed;
     top:0;
