@@ -24,7 +24,7 @@
     "bootstrap": "^4.4.1",
     "core-js": "^2.6.11",
     "gsap": "^3.6.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "^5.6.1",
     "ngx-webstorage-service": "^4.1.0",
     "rxjs": "~6.3.3",
